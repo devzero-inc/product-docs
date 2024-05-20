@@ -1,7 +1,7 @@
 # Use Cases
 
 {% hint style="info" %}
-**Coming soon...** test
+**Coming soon...** tests
 {% endhint %}
 
 * Reduce build and compile times
