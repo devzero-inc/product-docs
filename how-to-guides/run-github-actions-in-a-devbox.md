@@ -138,7 +138,7 @@ name: Actions Runner Controller Demo
 on: push
 jobs:
   Explore-GitHub-Actions-Arc:
-    runs-on: devzero-arc-runner
+    runs-on: devzero-dz-runner-set
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
 ```
