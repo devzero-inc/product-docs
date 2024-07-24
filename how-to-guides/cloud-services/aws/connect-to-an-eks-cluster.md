@@ -15,24 +15,31 @@ Connecting to EKS running in the private subnet of AWS VPC from your DevBox.
 
 1. Go to **Amazon Elastic Kubernetes Service > Clusters**.
 2. Go to the **DevBox** and install awscli:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 sudo apt install awscli
 ```
 {% endcode %}
+
 3. Download the **kubectl** binaries:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
 {% endcode %}
+
 4. Install the **kubectl**:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 {% endcode %}
+
 5. Check if the cluster is accessible:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 kubectl get svc
@@ -58,18 +65,23 @@ kubectl get svc
 ### Step 2: Installing necessary tools:
 
 1. Go to the **DevBox** and install awscli:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 sudo apt install awscli
 ```
 {% endcode %}
+
 2. Download the **kubectl** binaries:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
 {% endcode %}
+
 3. Install the **kubectl**:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
@@ -80,12 +92,15 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
 1. Click on your AWS username at the top right corner and go to **Security credentials**. In the **Access keys** section, click on **Create access key**. Create the key and save the **CSV** file.
 2. In your **DevBox**, use the csv credentials to configure the awscli to your account:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 aws configure
 ```
 {% endcode %}
+
 3. Check if the cluster is accessible:
+
 {% code overflow="wrap" lineNumbers="false" %}
 ```bash
 kubectl get svc
