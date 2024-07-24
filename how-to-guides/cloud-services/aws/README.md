@@ -20,6 +20,15 @@
 				<a href="../../../.gitbook/assets/aws-documentdb.png">aws-documentdb.png</a>
 			</td>
 		</tr>
+        <tr>
+			<td>Connecting to EKS</td>
+			<td>
+				<a href="connect-to-an-eks-cluster.md">connect-to-an-eks-cluster.md</a>
+			</td>
+			<td>
+				<a href="../../../.gitbook/assets/aws-eks.png">aws-eks.png</a>
+			</td>
+		</tr>
 		<tr>
 			<td>Running ECS services/tasks</td>
 			<td>
