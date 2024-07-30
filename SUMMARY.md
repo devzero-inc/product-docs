@@ -57,6 +57,8 @@
     * [RDS](how-to-guides/cloud-services/aws/connect-to-an-rds-instance.md)
     * [SQS](how-to-guides/cloud-services/aws/connect-to-sqs.md)
     * [S3](how-to-guides/cloud-services/aws/connect-to-an-s3-bucket.md)
+  * [GCP](how-to-guides/cloud-services/gcp/README.md)
+    * [Compute Instance](how-to-guides/cloud-services/gcp/connect-to-an-compute-instance.md)
 * [Existing Network](how-to-guides/existing-network/README.md)
   * [AWS VPC](how-to-guides/existing-network/connecting-to-aws.md)
   * [GCP VPC](how-to-guides/existing-network/connecting-to-gcp.md)
