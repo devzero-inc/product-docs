@@ -26,8 +26,8 @@ To install in WSL 2 (**does not** work on WSL 1):
 
 {% code fullWidth="true" %}
 
-```
-sudo dz auth login && sudo dz net connect
+```bash
+dz auth login && dz net connect
 ```
 
 {% endcode %}
@@ -58,8 +58,10 @@ function switchTabBasedOnOS() {
 
   if (os === 'Windows') {
     tabToActivate = document.querySelector('[data-tab="Windows"]');
-  } else if (os === 'MacOS/Linux') {
-    tabToActivate = document.querySelector('[data-tab="MacOS/Linux"]');
+  } else if (os === 'MacOS') {
+    tabToActivate = document.querySelector('[data-tab="MacOS"]');
+  } else if (os === 'Linux') {
+    tabToActivate = document.querySelector('[data-tab="Linux"]');
   }
 
   if (tabToActivate) {
