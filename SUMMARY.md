@@ -82,6 +82,7 @@
     * [Using Blob Storage](how-to-guides/cloud-services/azure/connecting-to-blob-storage.md)
     * [Storing secrets in Key Vault](how-to-guides/cloud-services/azure/connecting-to-key-vault.md)
     * [File Storage](how-to-guides/cloud-services/azure/connecting-to-file-storage.md)
+    * [App Service](how-to-guides/cloud-services/azure/connecting-to-app-service.md)
   * [GCP](how-to-guides/cloud-services/gcp/README.md)
     * [Connecting Compute Instances](how-to-guides/cloud-services/gcp/connecting-to-compute-instance.md)
     * [Accessing BigQuery](how-to-guides/cloud-services/gcp/connecting-to-bigquery.md)
@@ -107,6 +108,7 @@
   * [Xata](how-to-guides/databases/xata.md)
   * [MongoDB](how-to-guides/databases/mongodb.md)
   * [Timescale](how-to-guides/databases/timescale.md)
+  * [PlanetScale](how-to-guides/databases/planetscale.md)
 * [Remote Desktop](how-to-guides/remote-desktop.md)
 * [Adding a Remote Desktop](how-to-guides/remote-desktop.md)
 
