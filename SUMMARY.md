@@ -76,8 +76,8 @@
     * [Table Storage](how-to-guides/cloud-services/azure/connecting-to-table-storage.md)
     * [Blob Storage](how-to-guides/cloud-services/azure/connecting-to-blob-storage.md)
     * [Key Vault](how-to-guides/cloud-services/azure/connecting-to-key-vault.md)
-    * [Key Vault](how-to-guides/cloud-services/azure/connecting-to-key-vault.md)  
-    * [Container Instance](how-to-guides/cloud-services/azure/connecting-to-container-instance.md)  
+    * [Key Vault](how-to-guides/cloud-services/azure/connecting-to-key-vault.md)
+    * [Container Instance](how-to-guides/cloud-services/azure/connecting-to-container-instance.md)
     * [Accessing VMs](how-to-guides/cloud-services/azure/connecting-to-vm.md)
     * [Storing files in Storage Account](how-to-guides/cloud-services/azure/configuring-storage-account.md)
     * [Using Table Storage](how-to-guides/cloud-services/azure/connecting-to-table-storage.md)
@@ -113,7 +113,6 @@
   * [Timescale](how-to-guides/databases/timescale.md)
   * [PlanetScale](how-to-guides/databases/planetscale.md)
 * [Remote Desktop](how-to-guides/remote-desktop.md)
-* [Adding a Remote Desktop](how-to-guides/remote-desktop.md)
 
 ## 🛠️ Troubleshooting
 
@@ -121,6 +120,7 @@
 * [Command Line](troubleshooting/command-line.md)
 * [Recipes](troubleshooting/recipes.md)
 * [Workspaces](troubleshooting/workspaces.md)
+* [Network](troubleshooting/network.md)
 * [Visual Studio Code](troubleshooting/vs-code.md)
 * [JetBrains](troubleshooting/jetbrains.md)
 
