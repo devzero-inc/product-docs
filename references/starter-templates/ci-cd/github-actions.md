@@ -1,7 +1,6 @@
 ---
 title: GitHub Actions
 ---
-# GitHub Actions
 
 ## Self-hosted runner
 

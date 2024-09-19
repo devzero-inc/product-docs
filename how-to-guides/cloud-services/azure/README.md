@@ -1,7 +1,6 @@
 ---
 title: Azure
 ---
-# Azure
 
 <table data-view="cards">
     <thead>

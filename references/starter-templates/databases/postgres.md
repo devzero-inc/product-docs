@@ -1,7 +1,6 @@
 ---
 title: Postgres
 ---
-# Postgres
 
 ```yaml
 version: "3"

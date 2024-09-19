@@ -1,7 +1,6 @@
 ---
 title: Memorystore
 ---
-# Memorystore
 
 Connecting to Memorystore running in the private subnet of GCP VPC from your DevBox.
 

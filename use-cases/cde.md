@@ -1,7 +1,6 @@
 ---
 title: Cloud Development Environment (CDE
 ---
-# Cloud Development Environment (CDE
 
 > **Coming soon...**
 

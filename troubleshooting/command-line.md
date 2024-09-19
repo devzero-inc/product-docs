@@ -1,7 +1,6 @@
 ---
 title: Command Line
 ---
-# Command Line
 
 > **Coming soon...**
 

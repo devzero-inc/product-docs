@@ -1,7 +1,6 @@
 ---
 title: MongoDB
 ---
-# MongoDB
 
 ```yaml
 version: "3"

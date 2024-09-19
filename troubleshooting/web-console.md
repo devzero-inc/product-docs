@@ -1,7 +1,6 @@
 ---
 title: Web Console
 ---
-# Web Console
 
 > **Coming soon...**
 

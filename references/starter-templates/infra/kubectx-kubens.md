@@ -1,7 +1,6 @@
 ---
 title: Kubectx and Kubens
 ---
-# Kubectx and Kubens
 
 ```yaml
 version: "3"

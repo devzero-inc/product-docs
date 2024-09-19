@@ -1,7 +1,6 @@
 ---
 title: GitLab - glab CLI
 ---
-# GitLab - glab CLI
 
 ```yaml
 version: "3"

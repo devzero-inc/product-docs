@@ -1,7 +1,6 @@
 ---
 title: Nix
 ---
-# Nix
 
 ```yaml
 version: "3"

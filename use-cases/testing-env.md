@@ -1,7 +1,6 @@
 ---
 title: Testing Environments
 ---
-# Testing Environments
 
 > **Coming soon...**
 

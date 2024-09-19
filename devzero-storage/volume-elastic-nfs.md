@@ -1,7 +1,6 @@
 ---
 title: Volume (elastic NFS)
 ---
-# Volume (elastic NFS)
 
 DevZero's volumes are multi-attach multi-read-write capable volumes (similar to AWS EFS).
 Volumes are regional in nature and can be attached to any workspace in that region.
@@ -45,7 +44,6 @@ Successfully deployed workspace dear-filly-ubhg
 To connect to this workspace, run:
 dz workspace connect dear-filly-ubhg
 
-# OR
 
 $ dz workspace launch "My Recipe Name" --region=eu-north-1 --mount /mnt/my-shared-volume=e71e024e-ba0a-443a-b452-c931e8ce39a5
 Your workspace is currently being built... please wait!

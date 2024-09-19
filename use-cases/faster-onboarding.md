@@ -1,7 +1,6 @@
 ---
 title: Faster Onboarding
 ---
-# Faster Onboarding
 
 > **Coming soon...**
 

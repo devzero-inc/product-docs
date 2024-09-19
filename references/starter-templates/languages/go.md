@@ -1,7 +1,6 @@
 ---
 title: Go
 ---
-# Go
 
 ```yaml
 version: "3"

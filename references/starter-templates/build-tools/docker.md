@@ -1,7 +1,6 @@
 ---
 title: Docker and Docker Compose
 ---
-# Docker and Docker Compose
 
 ```yaml
 version: "3"

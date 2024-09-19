@@ -1,7 +1,6 @@
 ---
 title: Python
 ---
-# Python
 
 ```yaml
 version: "3"

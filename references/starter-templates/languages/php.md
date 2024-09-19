@@ -1,7 +1,6 @@
 ---
 title: PHP
 ---
-# PHP
 
 ```yaml
 version: "3"

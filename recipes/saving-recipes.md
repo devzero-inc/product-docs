@@ -1,7 +1,6 @@
 ---
 title: Sharing Recipes
 ---
-# Sharing Recipes
 
 > If you don't have any recipes yet, please follow the "[Creating a Recipe](create-recipe.md)" guide first.
 

@@ -1,7 +1,6 @@
 ---
 title: Helm
 ---
-# Helm
 
 ```yaml
 version: "3"

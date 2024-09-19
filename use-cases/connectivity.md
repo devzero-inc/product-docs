@@ -1,7 +1,6 @@
 ---
 title: Network Connectivity
 ---
-# Network Connectivity
 
 > **Coming soon...**
 

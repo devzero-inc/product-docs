@@ -1,7 +1,6 @@
 ---
 title: GitHub CLI
 ---
-# GitHub CLI
 
 ```yaml
 version: "3"

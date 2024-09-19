@@ -1,7 +1,6 @@
 ---
 title: Execution Stages
 ---
-# Execution Stages
 
 ## Overview
 

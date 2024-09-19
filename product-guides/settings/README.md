@@ -1,7 +1,6 @@
 ---
 title: Settings
 ---
-# Settings
 
 <details>
 

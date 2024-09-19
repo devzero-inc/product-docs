@@ -1,7 +1,6 @@
 ---
 title: CLI Reference
 ---
-# CLI Reference
 
 [install-the-cli.md](install-the-cli.md)
 

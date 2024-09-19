@@ -1,7 +1,6 @@
 ---
 title: Sharing Build Caches
 ---
-# Sharing Build Caches
 
 > **Coming soon...**
 

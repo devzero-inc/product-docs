@@ -1,7 +1,6 @@
 ---
 title: Recipes
 ---
-# Recipes
 
 <details>
 <summary>ERROR: mount options is too long</summary>

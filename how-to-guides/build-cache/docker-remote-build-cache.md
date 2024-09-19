@@ -1,7 +1,6 @@
 ---
 title: Docker
 ---
-# Docker
 
 ## Remote build/cache using `DOCKER_HOST`
 

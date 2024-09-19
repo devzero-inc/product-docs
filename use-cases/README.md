@@ -1,7 +1,6 @@
 ---
 title: Use Cases
 ---
-# Use Cases
 
 > **Coming soon...**
 

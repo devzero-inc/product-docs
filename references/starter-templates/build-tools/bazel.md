@@ -1,7 +1,6 @@
 ---
 title: Bazel
 ---
-# Bazel
 
 ```yaml
 version: "3"

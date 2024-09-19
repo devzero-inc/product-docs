@@ -1,7 +1,6 @@
 ---
 title: Ephemeral Kubernetes Cluster
 ---
-# Ephemeral Kubernetes Cluster
 
 > **Coming soon...**
 

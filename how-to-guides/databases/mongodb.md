@@ -1,7 +1,6 @@
 ---
 title: MongoDB Atlas
 ---
-# MongoDB Atlas
 
 Comprehensive guide for connecting to a MongoDB Cluster from your DevBox.
 

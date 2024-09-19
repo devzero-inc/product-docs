@@ -1,7 +1,6 @@
 ---
 title: Rust
 ---
-# Rust
 
 ```yaml
 version: "3"

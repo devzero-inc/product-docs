@@ -5,7 +5,6 @@ description: >-
 title: GitHub Actions
 ---
 
-# GitHub Actions
 
 > Pre-built recipe templates are available [here](../../references/starter-templates/ci-cd/github-actions.md).
 

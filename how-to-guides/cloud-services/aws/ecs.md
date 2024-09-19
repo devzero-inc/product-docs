@@ -1,7 +1,6 @@
 ---
 title: ECS
 ---
-# ECS
 
 ## Installation guide
 

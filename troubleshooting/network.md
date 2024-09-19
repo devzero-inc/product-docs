@@ -1,7 +1,6 @@
 ---
 title: Network
 ---
-# Network
 
 <details>
 

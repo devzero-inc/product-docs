@@ -1,7 +1,6 @@
 ---
 title: Preview Environments
 ---
-# Preview Environments
 
 > **Coming soon...**
 

@@ -1,7 +1,6 @@
 ---
 title: Azure - az CLI
 ---
-# Azure - az CLI
 
 ```yaml
 version: "3"

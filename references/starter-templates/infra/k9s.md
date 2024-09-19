@@ -1,7 +1,6 @@
 ---
 title: K9s
 ---
-# K9s
 
 ```yaml
 version: "3"

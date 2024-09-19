@@ -1,7 +1,6 @@
 ---
 title: Bazel
 ---
-# Bazel
 
 > Looking for a pre-made recipe template? See: [Bazel Buildfarm](../../references/starter-templates/ci-cd/bazel-buildfarm.md)
 

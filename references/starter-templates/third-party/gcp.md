@@ -1,7 +1,6 @@
 ---
 title: GCP - gcloud CLI
 ---
-# GCP - gcloud CLI
 
 ```yaml
 version: "3"

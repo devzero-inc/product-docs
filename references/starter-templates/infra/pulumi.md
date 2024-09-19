@@ -1,7 +1,6 @@
 ---
 title: Pulumi
 ---
-# Pulumi
 
 ```yaml
 version: "3"

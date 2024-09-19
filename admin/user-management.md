@@ -1,7 +1,6 @@
 ---
 title: User Management
 ---
-# User Management
 
 ## Inviting Teammates
 

@@ -1,7 +1,6 @@
 ---
 title: Namespaced Cloud Services
 ---
-# Namespaced Cloud Services
 
 > **Coming soon...**
 

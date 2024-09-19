@@ -1,7 +1,6 @@
 ---
 title: Internal Developer Platform (IDP
 ---
-# Internal Developer Platform (IDP
 
 > **Coming soon...**
 

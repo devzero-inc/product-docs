@@ -1,7 +1,6 @@
 ---
 title: Java
 ---
-# Java
 
 ```yaml
 version: "3"

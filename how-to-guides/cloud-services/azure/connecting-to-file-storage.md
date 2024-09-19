@@ -1,7 +1,6 @@
 ---
 title: Azure File Storage
 ---
-# Azure File Storage
 
 Connecting to an Azure File Storage from your DevBox.
 

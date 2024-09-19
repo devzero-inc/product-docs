@@ -1,7 +1,6 @@
 ---
 title: Supported Operating Systems
 ---
-# Supported Operating Systems
 
 At DevZero, every CLI update undergoes testing for the following conditions:
 

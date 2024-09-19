@@ -1,7 +1,6 @@
 ---
 title: Creating a Recipe
 ---
-# Creating a Recipe
 
 [![Creating a Recipe](https://devzero.b-cdn.net/create-first-recipe.mp4)](https://devzero.b-cdn.net/create-first-recipe.mp4)
 

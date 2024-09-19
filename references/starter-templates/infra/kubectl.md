@@ -1,7 +1,6 @@
 ---
 title: Kubectl
 ---
-# Kubectl
 
 ```yaml
 version: "3"

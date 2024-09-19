@@ -1,7 +1,6 @@
 ---
 title: Terraform
 ---
-# Terraform
 
 ```yaml
 version: "3"

@@ -1,7 +1,6 @@
 ---
 title: EKS
 ---
-# EKS
 
 Connecting to EKS running in the private subnet of AWS VPC from your DevBox.
 

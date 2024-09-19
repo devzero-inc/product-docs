@@ -1,7 +1,6 @@
 ---
 title: Standardized Development Environments
 ---
-# Standardized Development Environments
 
 > **Coming soon...**
 

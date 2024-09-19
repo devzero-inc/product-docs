@@ -1,7 +1,6 @@
 ---
 title: Dart
 ---
-# Dart
 
 ```yaml
 version: "3"

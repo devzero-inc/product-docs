@@ -1,7 +1,6 @@
 ---
 title: Ruby
 ---
-# Ruby
 
 ```yaml
 version: "3"

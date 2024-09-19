@@ -1,7 +1,6 @@
 ---
 title: 'JavaScript (incl. Yarn, NVM'
 ---
-# JavaScript (incl. Yarn, NVM
 
 ```yaml
 version: "3"

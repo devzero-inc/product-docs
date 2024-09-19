@@ -1,7 +1,6 @@
 ---
 title: Argo CD
 ---
-# Argo CD
 
 ```yaml
 version: "3"

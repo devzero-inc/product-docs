@@ -1,7 +1,6 @@
 ---
 title: C+
 ---
-# C+
 
 ```yaml
 version: "3"

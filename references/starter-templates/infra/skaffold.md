@@ -1,7 +1,6 @@
 ---
 title: Skaffold
 ---
-# Skaffold
 
 ```yaml
 version: "3"
