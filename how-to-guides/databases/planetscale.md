@@ -144,4 +144,4 @@ mysql -h aws.connect.psdb.cloud -D <database-name> -u $DATABASE_USERNAME -p$DATA
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20Planetscale%20Database.mov" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/how%20to%20guide%20Planetscale%20Database.mov)](https://devzero.b-cdn.net/how%20to%20guide%20Planetscale%20Database.mov)

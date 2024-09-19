@@ -46,4 +46,4 @@ build:
 
 ## Walkthrough Video
 
-{% embed url="https://devzero.b-cdn.net/Web%20shell.mp4" %}
+[![Walkthrough Video](https://devzero.b-cdn.net/Web%20shell.mp4)](https://devzero.b-cdn.net/Web%20shell.mp4)

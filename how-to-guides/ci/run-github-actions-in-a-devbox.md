@@ -89,7 +89,7 @@ jobs:
 
 Here's a five minute video to see the process from end to end.
 
-{% embed url="https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4" %}
+[![Setting up Self-Hosted GitHub Actions on DevZero](https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4)](https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4)
 
 ## Using Actions Runner Controller
 

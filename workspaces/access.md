@@ -28,4 +28,4 @@ To view running applications, visit `<workspacename>:<port>` in your browser (mo
 
 Here's a video covering all these concepts:
 
-{% embed url="https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4" %}
+[![Accessing a workspace](https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4)](https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4)

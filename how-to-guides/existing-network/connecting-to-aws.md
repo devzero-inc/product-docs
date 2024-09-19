@@ -62,4 +62,4 @@ ping <ip_address>
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4" %}
+[Video Walkthrough: How to Guide AWS VPC](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)

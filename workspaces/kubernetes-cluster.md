@@ -65,7 +65,7 @@ Global Flags:
 
 Here's a video covering how you can access and deploy apps to your workspace's Kubernetes cluster...
 
-{% embed url="https://devzero.b-cdn.net/Kubernetes%20demo.mp4" %}
+[![Kubernetes Demo](https://devzero.b-cdn.net/Kubernetes%20demo.mp4)](https://devzero.b-cdn.net/Kubernetes%20demo.mp4)
 
 <details>
 

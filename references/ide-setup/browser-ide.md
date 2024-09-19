@@ -64,4 +64,4 @@ build:
 
 ## Walkthrough Video
 
-{% embed url="https://devzero.b-cdn.net/browser-ide.mp4" %}
+[![Walkthrough Video](https://devzero.b-cdn.net/browser-ide.mp4)](https://devzero.b-cdn.net/browser-ide.mp4)

@@ -130,4 +130,4 @@ Now that we have a working recipe, we can create a workspace off it from the [re
 
 ### Video Walkthrough
 
-{% embed url="https://vimeo.com/1001281574?share=copy" %}
+[![Video Walkthrough](https://vimeo.com/1001281574?share=copy)](https://vimeo.com/1001281574?share=copy)

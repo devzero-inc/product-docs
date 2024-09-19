@@ -102,4 +102,4 @@ To make the connection, follow the below steps:
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4)](https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4)

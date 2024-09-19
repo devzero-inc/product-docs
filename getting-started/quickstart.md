@@ -9,7 +9,7 @@ title: Quickstart
 
 Follow the steps below to get started on the DevZero platform. Or, if you're more of a visual learner, we have a video tutorial as well!
 
-{% embed url="https://devzero.b-cdn.net/Onboarding%20v2.mp4" %}
+[![Onboarding Video](https://devzero.b-cdn.net/Onboarding%20v2.mp4)](https://devzero.b-cdn.net/Onboarding%20v2.mp4)
 
 ## Step 1. Signing up for an account
 

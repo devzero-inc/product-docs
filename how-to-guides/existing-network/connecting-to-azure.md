@@ -87,4 +87,4 @@ ping <ip_address>
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)

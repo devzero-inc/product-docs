@@ -308,4 +308,4 @@ xata shell
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4)](https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4)
