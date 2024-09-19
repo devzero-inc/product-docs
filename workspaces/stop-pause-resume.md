@@ -6,9 +6,7 @@ Workspaces are be hibernated when inactivity is detected (or when the DevZero pl
 
 :rotating\_light: Therefore, contents outside of `/home/devzero` (for example, `/var/*`, `/tmp/*`, etc) **will be lost** when such an event occurs.
 
-> **On the roadmap...** Our team is actively working on ways to preserve and restore:
-> * running processes
-> * state of the entire filesystem for when a workspace or any of its parts are restarted after being paused/stopped.
+> **On the roadmap...** Our team is actively working on ways to preserve and restore: running processes and state of the entire filesystem for when a workspace or any of its parts are restarted after being paused/stopped.
 
 Users cannot manually hibernate a workspace, however they are automatically restarted (if in a hibernated state) when you attempt to reconnect to the workspace.
 

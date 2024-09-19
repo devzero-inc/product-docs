@@ -1,7 +1,6 @@
 ---
 title: Adding Resources to your Network
 ---
-# Adding Resources to your Network
 
 ## Add a peer to your DevZero network
 
