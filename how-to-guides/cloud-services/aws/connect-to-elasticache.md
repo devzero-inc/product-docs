@@ -1,10 +1,13 @@
 ---
 title: ElastiCache
+description: Learn how to connect to ElastiCache from your DevBox.
 ---
 
 # ElastiCache
 
 Connecting to ElastiCache running in the private subnet of AWS VPC from your DevBox.
+
+If you're more of a visual learner, check out the [video tutorial](#video-walkthrough)!
 
 ## Architecture Diagram
 
@@ -79,3 +82,7 @@ redis-cli -h <redis-endpoint> -p <port>
 {% endcode %}
 
 ![AWS ElastiCache Access](../../../.gitbook/assets/elasticache-access.png)
+
+## Video Walkthrough
+
+{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20aws%20elasti%20cache.mp4" %}
