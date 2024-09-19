@@ -3,7 +3,6 @@ title: Dart
 ---
 # Dart
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -19,4 +18,3 @@ build:
         chmod +x /etc/profile.d/dart-installation.sh
       user: root
 ```
-{% endcode %}

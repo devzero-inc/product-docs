@@ -3,7 +3,6 @@ title: Kubectl
 ---
 # Kubectl
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -17,4 +16,3 @@ build:
         rm kubectl
       user: devzero
 ```
-{% endcode %}

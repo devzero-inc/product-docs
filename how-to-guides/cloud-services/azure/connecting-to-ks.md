@@ -25,35 +25,27 @@ If the above criteria are followed, then log into your DevBox and follow these s
 
 1. Go to your **DevBox** and install Azure CLI:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. After the installation is successful, you need to authenticate your Microsoft Azure account with Azure CLI using the following command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. Following your setup with Azure CLI, you also need to download the **kubectl** binaries:
 
-{% code lineNumbers="false" %}
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
-{% endcode %}
 
 4. Install **kubectl**:
 
-{% code lineNumbers="false" %}
 ```
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
-{% endcode %}
 
 ### Step 2: Accessing your AKS Cluster from DevBox
 
@@ -61,27 +53,21 @@ After your initial setup is done, your DevBox should be ready for accessing the 
 
 1. You need to select your **Subscription ID** in Azure Cli with the following command:
 
-{% code lineNumbers="false" %}
 ```
 az account set --subscription <subscription-id>
 ```
-{% endcode %}
 
 2. Use the following command to connect to your cluster:
 
-{% code lineNumbers="false" %}
 ```
 az aks get-credentials --resource-group <resource-group-name> --name <cluster-name> --overwrite-existing
 ```
-{% endcode %}
 
 2. Check if the cluster is accessible:
 
-{% code %}
 ```
 kubectl get svc
 ```
-{% endcode %}
 
 ![GCP GKE -> Devbox](../../../.gitbook/assets/azure-ks-access.png)
 
@@ -107,35 +93,27 @@ Now that you have created the cluster, you need to authenticate your DevBox with
 
 1. Go to your **DevBox** and install Azure CLI:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. After the installation is successful, you need to authenticate your Microsoft Azure account with Azure CLI using the following command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. Following your setup with Azure CLI, you also need to download the **kubectl** binaries:
 
-{% code lineNumbers="false" %}
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
-{% endcode %}
 
 4. Install **kubectl**:
 
-{% code lineNumbers="false" %}
 ```
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
-{% endcode %}
 
 ### Step 3: Accessing your Azure Kubernetes Cluster from DevBox
 
@@ -143,26 +121,20 @@ After your initial setup is done, your DevBox should be ready for accessing the 
 
 1. You need to select your **Subscription ID** in Azure CLI with the following command:
 
-{% code lineNumbers="false" %}
 ```
 az account set --subscription <subscription-id>
 ```
-{% endcode %}
 
 2. Use the following command to connect to your cluster:
 
-{% code lineNumbers="false" %}
 ```
 az aks get-credentials --resource-group <resource-group-name> --name <cluster-name> --overwrite-existing
 ```
-{% endcode %}
 
 2. Check if the cluster is accessible:
 
-{% code %}
 ```
 kubectl get svc
 ```
-{% endcode %}
 
 ![GCP GKE -> Devbox](../../../.gitbook/assets/azure-ks-access.png)

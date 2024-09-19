@@ -15,8 +15,6 @@ Current options for connecting to your workspace include:
 2. Directing from VS Code - `dz ws code best-gull-psxv`
 3. Via Code Server in browser - follow the onscreen instructions
 
-{% hint style="info" %}
-**Need to install our CLI?** Follow the instructions here: [CLI Installation](./../../references/cli-man-page/install-the-cli.md)
-{% endhint %}
+> **Need to install our CLI?** Follow the instructions here: [CLI Installation](./../../references/cli-man-page/install-the-cli.md)
 
 Once you're connected, you can use your Workspace just like any other development or testing environment. Then, when you're done with your work, you should use your remote Git provider to save your changes and you can delete your workspace. The next time you have work requiring that environment, simply launch a fresh Workspace from the related Recipe.

@@ -27,19 +27,15 @@ Follow the below steps to do so:
 
 1. Use the following command to reload the local package database:
 
-{% code %}
 ```
 sudo apt-get update
 ```
-{% endcode %}
 
 2. Install the PostgresSQL :
 
-{% code %}
 ```
 sudo apt install postgresql-client
 ```
-{% endcode %}
 
 ![Postgres client install](../../.gitbook/assets/supabase-install.png)
 
@@ -78,19 +74,15 @@ Follow the below steps to do so:
 
 1. Use the following command to reload the local package database:
 
-{% code %}
 ```
 sudo apt-get update
 ```
-{% endcode %}
 
 2. Install the PostgresSQL :
 
-{% code %}
 ```
 sudo apt install postgresql-client
 ```
-{% endcode %}
 
 ![Postgres client install](../../.gitbook/assets/supabase-install.png)
 

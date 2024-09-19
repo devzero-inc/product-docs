@@ -5,7 +5,6 @@ title: Help Commands
 
 ## dz
 
-{% code %}
 ```
 % dz -h
 Welcome to the DevZero CLI!
@@ -30,11 +29,9 @@ Available Commands:
 Flags:
   -h, --help   help for dz
 ```
-{% endcode %}
 
 ## dz > workspace
 
-{% code %}
 ```
 % dz workspace -h
 Operate against and manage your workspaces
@@ -55,11 +52,9 @@ Available Commands:
 Flags:
   -h, --help   help for workspace
 ```
-{% endcode %}
 
 ## dz > network
 
-{% code %}
 ```
 % dz network -h
 Control your connection to your team's DevZero network.
@@ -79,4 +74,3 @@ Available Commands:
 Flags:
   -h, --help   help for network
 ```
-{% endcode %}

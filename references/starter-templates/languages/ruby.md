@@ -3,7 +3,6 @@ title: Ruby
 ---
 # Ruby
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -20,4 +19,3 @@ build:
         echo 'export PATH="$HOME/.rbenv/bin:$PATH"' | sudo tee -a /etc/profile.d/ruby-installation.sh
         sudo chmod +x /etc/profile.d/ruby-installation.sh
 ```
-{% endcode %}

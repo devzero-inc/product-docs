@@ -16,11 +16,8 @@ layout:
 
 ## Welcome to DevZero
 
-{% hint style="info" %}
-**New to the platform?**\
-\
-We recommend getting started with our [readme-1.md](getting-started/readme-1.md "mention") and then running through the [quickstart.md](getting-started/quickstart.md "mention") example.
-{% endhint %}
+> **New to the platform?**
+> We recommend getting started with our [readme-1.md](getting-started/readme-1.md "mention") and then running through the [quickstart.md](getting-started/quickstart.md "mention") example.
 
 ***
 

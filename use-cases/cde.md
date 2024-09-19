@@ -3,9 +3,7 @@ title: Cloud Development Environment (CDE
 ---
 # Cloud Development Environment (CDE
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 * Reduce build and compile times
 * Ensure consistency of development environments

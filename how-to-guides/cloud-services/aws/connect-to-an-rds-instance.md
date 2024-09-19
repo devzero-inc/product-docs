@@ -35,11 +35,10 @@ sudo apt install mysql-client
 
 To access the database:
 
-{% code %}
 ```
 mysql -h <RDS Endpoint> -u <Username> --database <Database Name> -p
 ```
-{% endcode %}
+
 {% endtab %}
 
 {% tab title="PostgreSQL" %}
@@ -51,11 +50,10 @@ sudo apt install postgresql-client
 
 To access the database:
 
-{% code %}
 ```
 psql -h <RDS Endpoint> --username <Username> -d <Database Name> --password
 ```
-{% endcode %}
+
 {% endtab %}
 {% endtabs %}
 

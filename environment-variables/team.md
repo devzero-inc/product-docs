@@ -9,9 +9,7 @@ Visit the Environment Variables section at [https://www.devzero.io/dashboard/env
 
 <figure><img src="../.gitbook/assets/Update environment variables (1).png" alt=""><figcaption><p>Team environment variables</p></figcaption></figure>
 
-{% hint style="info" %}
-Team-scoped environment variables and secrets must be directly referenced in your recipe template steps. Unlike user-scoped environment variables, they are **not** automatically added to every workspace.
-{% endhint %}
+> Team-scoped environment variables and secrets must be directly referenced in your recipe template steps. Unlike user-scoped environment variables, they are **not** automatically added to every workspace.
 
 <figure><img src="../.gitbook/assets/Update environment variables.png" alt=""><figcaption><p>Team Environment Variables</p></figcaption></figure>
 

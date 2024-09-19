@@ -27,9 +27,7 @@ Alternatively, you can launch a blank Recipe by clicking "Create a recipe" witho
 
 <figure><img src="https://devzero.b-cdn.net/add-repo-to-recipe.gif" alt=""><figcaption><p>Add code to your Recipe.</p></figcaption></figure>
 
-{% hint style="info" %}
-If you're not using GitHub or prefer a different authentication method, check out this section on [cloning source code](cloning-source-code.md).
-{% endhint %}
+> If you're not using GitHub or prefer a different authentication method, check out this section on [cloning source code](cloning-source-code.md).
 
 ## 4. Make Recipe Changes
 
@@ -39,9 +37,7 @@ After you've successfully built your Recipe and are done iterating, you're ready
 
 <figure><img src="https://devzero.b-cdn.net/recipe-edit.gif" alt=""><figcaption><p>Make Recipe changes.</p></figcaption></figure>
 
-{% hint style="info" %}
- We provide detailed build logs to help you identify any errors in your build and make iterating on Recipes easy.
-{% endhint %}
+> We provide detailed build logs to help you identify any errors in your build and make iterating on Recipes easy.
 
 ## 5. Launch A Workspace from New Recipe and Connect
 

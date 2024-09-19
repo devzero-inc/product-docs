@@ -90,7 +90,6 @@ tenant_id = os.environ['TENANT_ID']
 client_secret = os.environ['CLIENT_SECRET']
 vault_url = f"https://test-vault-devzero.vault.azure.net/"
 
-
 secret_name = "Devzero-key"
 
 credentials = ClientSecretCredential(
@@ -200,7 +199,6 @@ client_id = os.environ['CLIENT_ID']
 tenant_id = os.environ['TENANT_ID']
 client_secret = os.environ['CLIENT_SECRET']
 vault_url = f"https://test-vault-devzero.vault.azure.net/"
-
 
 secret_name = "devzero-key"
 

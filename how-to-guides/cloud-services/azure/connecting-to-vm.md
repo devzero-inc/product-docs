@@ -25,11 +25,9 @@ If the above criteria are followed, then log into your DevBox and SSH into the p
 3. Copy the private SSH key within the `.ssh` directory.
 4. Connect to the virtual machine:
 
-{% code lineNumbers="false" %}
 ```
 ssh -i "path/to/private/key" username@instance-private-ip
 ```
-{% endcode %}
 
 ![Azure VM Access](../../../.gitbook/assets/azure-vm-access.png)
 
@@ -54,10 +52,8 @@ If you need to make a new virtual machine running in a private subnet and access
 1. Go to **DevBox** and make a copy of the key pair.
 2. Connect to the Virtual Machine using ssh and the new key pair:
 
-{% code lineNumbers="false" %}
 ```
 ssh -i "path/to/private/key" username@instance-ip
 ```
-{% endcode %}
 
 ![Azure VM Access](../../../.gitbook/assets/azure-vm-access.png)

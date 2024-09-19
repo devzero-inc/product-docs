@@ -32,7 +32,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -44,7 +43,6 @@ build:
       command: |
         sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -61,11 +59,9 @@ Now follow the below steps to access the File Storage on your DevBox:
 
 1. Connect to DevBox and login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 2. After you have completed your authentication, go to **Home > Storage Accounts** and select your storage account.
 4. Then go to the **Security + Networking > Access Keys** section and note down either of the two access keys presented to you.
@@ -76,7 +72,6 @@ az login
 
 To Upload a file to the file share, use the following command:
 
-{% code %}
 ```
 az storage file upload \
     --account-name <storage-account> \
@@ -85,7 +80,6 @@ az storage file upload \
     --source "file-name.txt" \
     --path "<directory-name>/<file-name>.txt"
 ```
-{% endcode %}
 
 Here, the `--source` tag refers to the File you want to upload, and the `--path` tag specifies where you want to upload the File, specifying a directory and output file name.
 
@@ -97,7 +91,6 @@ Here, the `--source` tag refers to the File you want to upload, and the `--path`
 
 To Download a file from the file share, use the following command:
 
-{% code %}
 ```
 az storage file upload \
     --account-name <storage-account> \
@@ -107,7 +100,6 @@ az storage file upload \
     --dest "<file-name>.txt" \
     --output none
 ```
-{% endcode %}
 
 Here, the `--path` tag refers to the terminal path of the File you want to download from your file share and the `--dest` tag specifies how and where you want to save your File by specifying a directory and output file name.
 
@@ -119,7 +111,6 @@ Here, the `--path` tag refers to the terminal path of the File you want to downl
 
 To list all the files in the file share, use the following command:
 
-{% code %}
 ```
 az storage file list \
     --account-name <storage-account> \
@@ -128,7 +119,6 @@ az storage file list \
     --path "<directory-name>" \
     --output table
 ```
-{% endcode %}
 
 ![Azure File Storage List](../../../.gitbook/assets/azure-file-list.png)
 
@@ -158,7 +148,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -170,7 +159,6 @@ build:
       command: |
         sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -187,15 +175,12 @@ After creating the File Share, you must install and authenticate your Azure CLI 
 
 1. Connect to your DevBox and login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 2. Use the following command to create a directory in the File Share:
 
-{% code %}
 ```
 az storage directory create \
    --account-name <storage-account> \
@@ -204,7 +189,6 @@ az storage directory create \
    --name <directory-name> \
    --output none
 ```
-{% endcode %}
 
 ![Azure File Storage Directory Creation](../../../.gitbook/assets/azure-file-directory-creation.png)
 
@@ -215,7 +199,6 @@ az storage directory create \
 
 To Upload a file to the file share, use the following command:
 
-{% code %}
 ```
 az storage file upload \
     --account-name <storage-account> \
@@ -224,7 +207,6 @@ az storage file upload \
     --source "file-name.txt" \
     --path "<directory-name>/<file-name>.txt"
 ```
-{% endcode %}
 
 Here, the `--source` tag refers to the file you want to upload, and the `--path` tag refers to where you want to upload the file by specifying a Filectory and output file name.
 
@@ -236,7 +218,6 @@ Here, the `--source` tag refers to the file you want to upload, and the `--path`
 
 To Download a file from the file share, use the following command:
 
-{% code %}
 ```
 az storage file upload \
     --account-name <storage-account> \
@@ -246,7 +227,6 @@ az storage file upload \
     --dest "<file-name>.txt" \
     --output none
 ```
-{% endcode %}
 
 Here, the `--path` tag refers to the terminal path of the file you want to downfile from your file share, and `--dest` tag refers to how and where you want to save your File by specifying a directory and output file name.
 
@@ -258,7 +238,6 @@ Here, the `--path` tag refers to the terminal path of the file you want to downf
 
 To list all the files in the file share, use the following command:
 
-{% code %}
 ```
 az storage file list \
     --account-name <storage-account> \
@@ -267,7 +246,6 @@ az storage file list \
     --path "<directory-name>" \
     --output table
 ```
-{% endcode %}
 
 ![Azure File Storage List](../../../.gitbook/assets/azure-file-list.png)
 

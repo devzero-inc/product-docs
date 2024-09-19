@@ -45,14 +45,8 @@ launch:
 
 ## Actions Runner Controller
 
-{% hing style="warning" %}
-
-The Actions Runner Controller directions are in beta and running tests which require Docker aren't supported yet
-{% endhint %}
-
-{% hint style="info" %}
-Adjust the `INSTALLATION_NAME`, `NAMESPACE`, `GITHUB_CONFIG_URL`, and `GITHUB_PAT` variables as needed.
-{% endhint %}
+> The Actions Runner Controller directions are in beta and running tests which require Docker aren't supported yet
+> Adjust the `INSTALLATION_NAME`, `NAMESPACE`, `GITHUB_CONFIG_URL`, and `GITHUB_PAT` variables as needed.
 
 ```yaml
 version: "3"

@@ -3,8 +3,6 @@ title: Web Console
 ---
 # Web Console
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 Need help? Reach out to [support@devzero.io](mailto:support@devzero.io)

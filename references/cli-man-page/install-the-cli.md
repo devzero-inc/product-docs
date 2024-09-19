@@ -12,11 +12,9 @@ These instructions will guide you through the DevZero CLI installation process b
 
 **Make sure to run the following commands after installation to continue with the setup process:**
 
-{% code fullWidth="true" %}
 ```
 dz auth login
 ```
-{% endcode %}
 
 ```
 dz net connect

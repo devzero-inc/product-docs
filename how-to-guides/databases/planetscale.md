@@ -39,7 +39,6 @@ You will need to create a Recipe in DevZero equipped with the necessary tools li
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe yaml file with the snippet below. Remember to replace the placeholder username and password with the value you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -55,7 +54,6 @@ runtime:
     - name: DATABASE_PASSWORD
       value: <password>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -73,12 +71,10 @@ Now, with everything set, you just need to use the connection string to access t
 1. Go to DevBox.
 2. Use the following command to connect to the database:
 
-{% code %}
 ```
 mysql -h aws.connect.psdb.cloud -D <database-name> -u $DATABASE_USERNAME -p$DATABASE_PASSWORD --ssl-mode=VERIFY_IDENTITY --ssl-ca=/etc/ssl/certs/ca-certificates.crt
 
 ```
-{% endcode %}
 
 ![PlanetScale database access](../../.gitbook/assets/planetscale-access.png)
 
@@ -107,7 +103,6 @@ You will need to create a Recipe in DevZero equipped with the necessary tools li
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe yaml file with the snippet below. Remember to replace the placeholder username and password with the value you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -123,7 +118,6 @@ runtime:
     - name: DATABASE_PASSWORD
       value: <password>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -141,12 +135,10 @@ Now, with everything set, you just need to use the connection string to access t
 1. Go to DevBox.
 2. Use the following command to connect to the database:
 
-{% code %}
 ```
 mysql -h aws.connect.psdb.cloud -D <database-name> -u $DATABASE_USERNAME -p$DATABASE_PASSWORD --ssl-mode=VERIFY_IDENTITY --ssl-ca=/etc/ssl/certs/ca-certificates.crt
 
 ```
-{% endcode %}
 
 ![PlanetScale database access](../../.gitbook/assets/planetscale-access.png)
 

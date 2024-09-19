@@ -43,11 +43,9 @@ Now follow the below steps to configure the Storage Account:
 
 To verify if you can access the storage account endpoint from your DevBox, just use the following command in your DevBox:
 
-{% code lineNumbers="false" %}
 ```
 nslookup <storage-account-name>.<sub-resource>.core.windows.net
 ```
-{% endcode %}
 
 ![Azure Storage Account access](../../../.gitbook/assets/azure-storage-account-access.png)
 
@@ -75,10 +73,8 @@ To verify if you can access the Storage Account, follow the below steps:
 1. Go to the **DevBox**.
 2. Use the following command to see if the private endpoint is accessible to you:
 
-{% code lineNumbers="false" %}
 ```
 nslookup <storage-account-name>.<sub-resource>.core.windows.net
 ```
-{% endcode %}
 
 ![Azure Storage Account access](../../../.gitbook/assets/azure-storage-account-access.png)

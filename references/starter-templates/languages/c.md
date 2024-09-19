@@ -3,7 +3,6 @@ title: C
 ---
 # C
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -11,4 +10,3 @@ build:
     - type: apt-get
       packages: ["gcc"]
 ```
-{% endcode %}

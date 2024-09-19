@@ -6,9 +6,7 @@ title: Alternative Installation Steps
 
 If you happen to be running an unsupported configuration (i.e. where you don't have sudo access), we got your back! We offer support on a best-effort basis for most Linux distributions & macOS versions, via statically-compiled binaries.
 
-{% hint style="info" %}
-As you're deviating from the "happy path", you'll need to run some extra commands in order to get the DevZero CLI working on your machine. If you'd like assistance with this, please contact us at support@devzero.io and we'd be happy to guide you through these steps.
-{% endhint %}
+> As you're deviating from the "happy path", you'll need to run some extra commands in order to get the DevZero CLI working on your machine. If you'd like assistance with this, please contact us at support@devzero.io and we'd be happy to guide you through these steps.
 
 We generally support most arm64 / amd64 Linux systems, as well as Apple Silicon & Intel macOS systems. If you're running - say, a SPARC / RISC-V machine, we don't support that at this time.
 
@@ -47,38 +45,30 @@ If you're feeling adventurous, these links are for the `latest` release track, w
 
 ## 2. Unpack the tarball
 
-{% code %}
 ```
 tar xvf dz.tar.gz
 ```
-{% endcode %}
 
 This should produce one file, called `dzcmd`.
 
 ## 3. Create symlinks
 
-{% code %}
 ```
 ln -s dzcmd dz
 ln -s dzcmd dznetd
 ```
-{% endcode %}
 
 ## 4. Start dznetd
 
-{% code %}
 ```
 sudo ./dznetd
 ```
-{% endcode %}
 
 ## 5. Connect to your team's network
 
-{% code %}
 ```
 sudo ./dz net connect
 ```
-{% endcode %}
 
 ## 6. Success
 

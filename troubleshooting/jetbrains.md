@@ -3,6 +3,4 @@ title: JetBrains
 ---
 # JetBrains
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**

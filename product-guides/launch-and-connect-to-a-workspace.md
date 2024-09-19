@@ -19,6 +19,4 @@ Current options for connecting to your workspace include:
 2. Directing from VS Code - `dz ws code best-gull-psxv`
 3. Via Code Server in browser - follow the onscreen instructions
 
-{% hint style="info" %}
-If you're having trouble launching or connecting to your workspace, we're here to help! Please reach out to support@devzero.io
-{% endhint %}
+> If you're having trouble launching or connecting to your workspace, we're here to help! Please reach out to support@devzero.io

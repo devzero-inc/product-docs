@@ -3,7 +3,6 @@ title: Nix
 ---
 # Nix
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -16,4 +15,3 @@ build:
         . ~/.nix-profile/etc/profile.d/nix.sh
       shell: /bin/bash -l {}
 ```
-{% endcode %}

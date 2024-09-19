@@ -5,7 +5,6 @@ title: Browser IDE (using code-server)
 
 There's a [walkthrough video](#walkthrough-video) at the bottom of this page if you want to see how everything looks!
 
-{% code lineNumbers="true" %}
 ```
 version: "3"
 
@@ -62,7 +61,6 @@ build:
         systemctl enable code-server  # Enable code-server to start on system boot
       user: root  # Execute the command as the root user
 ```
-{% endcode %}
 
 ## Walkthrough Video
 

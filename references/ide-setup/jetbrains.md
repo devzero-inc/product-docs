@@ -32,9 +32,7 @@ This doc contains information about connecting to DevZero workspaces using any o
 
 <figure><img src="./../../.gitbook/assets/jetbrains-gateway-ide-selection.png" alt="" width="563"><figcaption><p>Select your IDE</p></figcaption></figure>
 
-{% hint style="info" %}
-The default path for your cloned code is `/home/devzero`
-{% endhint %}
+> The default path for your cloned code is `/home/devzero`
 
 - Under **Connections > SSH**, you should see your workspace listed.
 
@@ -55,9 +53,7 @@ The default path for your cloned code is `/home/devzero`
 
 <figure><img src="./../../.gitbook/assets/jetbrains-gateway-ide-selection.png" alt="" width="563"><figcaption><p>Select your IDE</p></figcaption></figure>
 
-{% hint style="info" %}
-The default path for your cloned code is `/home/devzero`
-{% endhint %}
+> The default path for your cloned code is `/home/devzero`
 
 - Under **Remote Development > SSH**, you should see your workspace listed.
 

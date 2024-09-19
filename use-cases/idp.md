@@ -3,9 +3,7 @@ title: Internal Developer Platform (IDP
 ---
 # Internal Developer Platform (IDP
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 * Reduce build and compile times
 * Ensure consistency of development environments
