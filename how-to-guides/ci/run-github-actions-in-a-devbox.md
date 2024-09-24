@@ -121,12 +121,13 @@ After you obtained the PAT:
 Adjust the `NAMESPACE`variable as needed.
 {% endhint %}
 
-<pre><code>NAMESPACE=dz-arc-systems
+```
+NAMESPACE=dz-arc-systems
 helm install arc \
-<strong>  --namespace "${NAMESPACE}" \
-</strong>  --create-namespace \
+  --namespace "${NAMESPACE}" \
+  --create-namespace \
   oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controllerRunner scale-set
-</code></pre>
+```
 
 ### Runner scale-set
 

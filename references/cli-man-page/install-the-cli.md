@@ -5,8 +5,9 @@ These instructions will guide you through the DevZero CLI installation process b
 
 {% tabs %}
 {% tab title="MacOS / Linux" %}
-<pre data-overflow="wrap"><code><strong>curl -fsSL https://get.devzero.io | sh
-</strong></code></pre>
+```
+curl -fsSL https://get.devzero.io | sh
+```
 
 **Make sure to run the following commands after installation to continue with the setup process:**
 
@@ -36,8 +37,9 @@ To install chocolatey, [follow these instructions](https://docs.chocolatey.org/e
 
 To install in WSL 2 (**does not** work on WSL 1):
 
-<pre data-overflow="wrap"><code><strong>curl -fsSL https://get.devzero.io | sh
-</strong></code></pre>
+```
+curl -fsSL https://get.devzero.io | sh
+```
 {% endtab %}
 {% endtabs %}
 

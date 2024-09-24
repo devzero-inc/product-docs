@@ -90,16 +90,24 @@ The [DevZero CLI](../references/cli-man-page/), or `dz` for short, is the primar
 
 {% tabs %}
 {% tab title="MacOS / Linux" %}
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>curl -fsSL https://get.devzero.io | sh</strong></code></pre>
+
+```
+curl -fsSL https://get.devzero.io | sh
+```
 {% endtab %}
 
 {% tab title="Windows" %}
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>choco install devzero-cli --version=1.0.0 --source="'.;https://chocolatey.org/api/v2'"</strong></code></pre>
+```
+choco install devzero-cli --version=1.0.0 --source="'.;https://chocolatey.org/api/v2'"
+```
 
 To install chocolatey, [follow these instructions](https://docs.chocolatey.org/en-us/choco/setup/#installing-chocolatey-cli).
 
 To install in WSL 2 (**does not** work on WSL 1):
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>curl -fsSL https://get.devzero.io | sh</strong></code></pre>
+
+```
+curl -fsSL https://get.devzero.io | sh
+```
 {% endtab %}
 {% endtabs %}
 

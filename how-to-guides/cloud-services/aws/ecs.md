@@ -65,7 +65,8 @@ If you select "Configure at deployment" in your task definition, you might not b
 
 ## Recipe example
 
-<pre class="language-yaml"><code class="lang-yaml">version: "3"
+```yaml
+version: "3"
 build:
   steps:
     - type: apt-get
@@ -81,9 +82,9 @@ launch:
   steps:
     - type: command
       command: |
-<strong>        ./ecs-anywhere-install.sh --region "&#x3C;region>" --cluster "&#x3C;ECS cluster>" --activation-id "&#x3C;id>" --activation-code "&#x3C;code>"
-</strong><strong>      directory: /home/devzero
-</strong><strong>      user: root
-</strong></code></pre>
+        ./ecs-anywhere-install.sh --region "&#x3C;region>" --cluster "&#x3C;ECS cluster>" --activation-id "&#x3C;id>" --activation-code "&#x3C;code>"
+      directory: /home/devzero
+      user: root
+```
 
 When running tasks/services you should now be able to select "External" launch type in order to run them on your DevBoxes.

@@ -40,10 +40,11 @@ sudo apt install tightvncserver
 
 4. Create a new file in `~/.vnc/xstartup` :
 
-<pre><code><strong>#!/bin/bash
-</strong>xrdb $HOME/.Xresources
-startxfce4 &#x26;
-</code></pre>
+```
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
+```
 
 5. Start the VNC server:
 
