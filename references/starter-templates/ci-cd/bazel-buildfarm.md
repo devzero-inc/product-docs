@@ -1,8 +1,6 @@
 ---
 title: Bazel Buildfarm
 ---
-# Bazel Buildfarm
-
 ```yaml
 version: "3"
 build:

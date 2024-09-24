@@ -1,8 +1,6 @@
 ---
 title: Access Running Applications
 ---
-# Access Running Applications
-
 ## Access Your Running Application(s)
 
 Make sure you're connected to the DevZero network by running:

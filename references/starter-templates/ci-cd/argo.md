@@ -1,8 +1,6 @@
 ---
 title: Argo CD
 ---
-# Argo CD
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

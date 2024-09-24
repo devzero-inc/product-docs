@@ -2,9 +2,6 @@
 description: 'Estimated time to complete: ~5 mins'
 title: Quickstart
 ---
-
-# Quickstart
-
 **Welcome!** :wave:
 
 Follow the steps below to get started on the DevZero platform. Or, if you're more of a visual learner, we have a video tutorial as well!

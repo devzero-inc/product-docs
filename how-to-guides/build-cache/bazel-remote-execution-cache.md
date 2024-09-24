@@ -1,8 +1,6 @@
 ---
 title: Bazel
 ---
-# Bazel
-
 {% hint style="info" %}
 Looking for a pre-made recipe template? See: [Bazel Buildfarm](../../references/starter-templates/ci-cd/bazel-buildfarm.md)
 {% endhint %}

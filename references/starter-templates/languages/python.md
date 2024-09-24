@@ -1,8 +1,6 @@
 ---
 title: Python
 ---
-# Python
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

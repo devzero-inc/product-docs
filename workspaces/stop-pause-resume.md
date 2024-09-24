@@ -1,8 +1,6 @@
 ---
 title: Workspace Lifecycle
 ---
-# Workspace Lifecycle
-
 Workspaces are be hibernated when inactivity is detected (or when the DevZero platform under conditions of duress). Currently, all the contents under `/home/devzero` are backed by a persistent volume.
 
 :rotating\_light: Therefore, contents outside of `/home/devzero` (for example, `/var/*`, `/tmp/*`, etc) **will be lost** when such an event occurs.

@@ -1,8 +1,6 @@
 ---
 title: ECS (local)
 ---
-# ECS (local)
-
 ## Installation guide
 
 Schedule ECS tasks locally using ecs-cli

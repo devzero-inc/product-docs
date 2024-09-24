@@ -1,8 +1,6 @@
 ---
 title: C+
 ---
-# C+
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

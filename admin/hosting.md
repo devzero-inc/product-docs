@@ -1,8 +1,6 @@
 ---
 title: Hosting
 ---
-# Hosting
-
 ## Hosting Options
 
 1. **Fully-hosted SaaS:**

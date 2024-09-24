@@ -1,8 +1,6 @@
 ---
 title: AWS
 ---
-# AWS
-
 ## AWS CLI
 
 {% code lineNumbers="true" %}

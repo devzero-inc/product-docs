@@ -1,8 +1,6 @@
 ---
 title: Settings
 ---
-# Settings
-
 <details>
 
 <summary>User Settings</summary>

@@ -4,9 +4,6 @@ description: >-
   actions.
 title: GitHub Actions
 ---
-
-# GitHub Actions
-
 {% hint style="info" %}
 Pre-built recipe templates are available [here](../../references/starter-templates/ci-cd/github-actions.md).
 {% endhint %}

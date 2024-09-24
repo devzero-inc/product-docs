@@ -1,8 +1,6 @@
 ---
 title: Standardized Development Environments
 ---
-# Standardized Development Environments
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

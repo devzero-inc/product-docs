@@ -1,8 +1,6 @@
 ---
 title: Personal Access Tokens
 ---
-# Personal Access Tokens
-
 ## Managing Personal Access Tokens
 
 To manage Personal access tokens, nagivate to [User Settings](https://www.devzero.io/dashboard/settings/user-settings) and find the "Personal Access Tokens" section

@@ -1,8 +1,6 @@
 ---
 title: Build Process
 ---
-# Build Process
-
 ## User Experience
 
 When you create a Recipe on the dashboard (at [DevZero: Create a new recipe](https://www.devzero.io/dashboard/recipes/new)), this is what you see...

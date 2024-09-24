@@ -4,9 +4,6 @@ description: >-
   to support@devzero.io)
 title: Recipe Syntax
 ---
-
-# Recipe Syntax
-
 A recipe is a definition of a workspace. It consists of a base workspace configuration, and a set of steps to be executed. Let's look at a simple recipe:
 
 ```yaml

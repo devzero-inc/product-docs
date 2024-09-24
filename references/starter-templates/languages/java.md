@@ -1,8 +1,6 @@
 ---
 title: Java
 ---
-# Java
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

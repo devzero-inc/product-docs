@@ -1,8 +1,6 @@
 ---
 title: Network Connectivity
 ---
-# Network Connectivity
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

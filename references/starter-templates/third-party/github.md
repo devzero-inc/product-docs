@@ -1,8 +1,6 @@
 ---
 title: GitHub CLI
 ---
-# GitHub CLI
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

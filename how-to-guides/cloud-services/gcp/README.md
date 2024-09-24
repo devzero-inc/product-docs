@@ -1,8 +1,6 @@
 ---
 title: GCP
 ---
-# GCP
-
 <table data-view="cards">
 	<thead>
 		<tr>

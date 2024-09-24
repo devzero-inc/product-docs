@@ -1,8 +1,6 @@
 ---
 title: Skaffold
 ---
-# Skaffold
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

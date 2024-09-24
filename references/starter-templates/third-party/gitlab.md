@@ -1,8 +1,6 @@
 ---
 title: GitLab - glab CLI
 ---
-# GitLab - glab CLI
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

@@ -1,8 +1,6 @@
 ---
 title: Remote Desktop
 ---
-# Remote Desktop
-
 You can access your DevBox interactively using Remote Desktop.
 
 ## Using Docker (recommended)

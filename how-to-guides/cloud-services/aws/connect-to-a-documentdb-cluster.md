@@ -1,8 +1,6 @@
 ---
 title: DocumentDB
 ---
-# DocumentDB
-
 Connecting to DocumentDB running in the private subnet of AWS VPC from your DevBox.
 
 ## Architecture Diagram

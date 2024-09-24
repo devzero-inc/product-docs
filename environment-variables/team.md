@@ -1,8 +1,6 @@
 ---
 title: Team-scoped
 ---
-# Team-scoped
-
 ## Saving a team-scoped environment variable
 
 Visit the Environment Variables section at [https://www.devzero.io/dashboard/environment-variables/team](https://www.devzero.io/dashboard/environment-variables/team) to add, remove or update your  team-scoped environment variables. Team-scoped environment variables can be referenced and used by anyone within your DevZero team.

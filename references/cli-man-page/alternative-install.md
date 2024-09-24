@@ -1,9 +1,6 @@
 ---
 title: Alternative Installation Steps
 ---
-
-# Alternative Installation Steps
-
 If you happen to be running an unsupported configuration (i.e. where you don't have sudo access), we got your back! We offer support on a best-effort basis for most Linux distributions & macOS versions, via statically-compiled binaries.
 
 {% hint style="info" %}

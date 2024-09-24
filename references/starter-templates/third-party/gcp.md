@@ -1,8 +1,6 @@
 ---
 title: GCP - gcloud CLI
 ---
-# GCP - gcloud CLI
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

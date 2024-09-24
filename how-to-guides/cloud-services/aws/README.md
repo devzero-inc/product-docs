@@ -1,8 +1,6 @@
 ---
 title: AWS
 ---
-# AWS
-
 <table data-view="cards">
 	<thead>
 		<tr>

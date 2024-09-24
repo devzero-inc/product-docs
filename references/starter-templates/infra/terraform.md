@@ -1,8 +1,6 @@
 ---
 title: Terraform
 ---
-# Terraform
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

@@ -1,8 +1,6 @@
 ---
 title: Preview Environments
 ---
-# Preview Environments
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

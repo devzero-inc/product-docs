@@ -2,9 +2,6 @@
 description: Using a NeonDB database branch from a DevZero workspace.
 title: Neon
 ---
-
-# Neon
-
 ## Architecture Diagram
 
 ![Neon DB Architecture](../../.gitbook/assets/neondb.drawio.png)

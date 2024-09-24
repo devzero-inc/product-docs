@@ -1,8 +1,6 @@
 ---
 title: Testing Environments
 ---
-# Testing Environments
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

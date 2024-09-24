@@ -1,8 +1,6 @@
 ---
 title: Execution Stages
 ---
-# Execution Stages
-
 ## Overview
 
 Recipes have two execution stages that you can customize:

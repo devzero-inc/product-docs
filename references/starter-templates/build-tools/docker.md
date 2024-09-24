@@ -1,8 +1,6 @@
 ---
 title: Docker and Docker Compose
 ---
-# Docker and Docker Compose
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

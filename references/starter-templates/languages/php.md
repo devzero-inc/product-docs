@@ -1,8 +1,6 @@
 ---
 title: PHP
 ---
-# PHP
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

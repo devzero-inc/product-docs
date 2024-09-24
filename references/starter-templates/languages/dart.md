@@ -1,8 +1,6 @@
 ---
 title: Dart
 ---
-# Dart
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

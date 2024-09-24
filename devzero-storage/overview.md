@@ -1,8 +1,6 @@
 ---
 title: DevZero Storage
 ---
-# DevZero Storage
-
 ## Volume
 
 Volume is a storage device. It may be used only by one workspace, or can be attached to multiple, in a read-write capacity. It usually shows up on a workspace as a filesystem.

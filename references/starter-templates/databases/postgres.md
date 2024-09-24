@@ -1,8 +1,6 @@
 ---
 title: Postgres
 ---
-# Postgres
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

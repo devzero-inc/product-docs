@@ -1,8 +1,6 @@
 ---
 title: BigQuery
 ---
-# BigQuery
-
 Connecting to GCP BigQuery Service from your DevBox.
 
 ## Architecture Diagram

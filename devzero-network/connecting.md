@@ -1,8 +1,6 @@
 ---
 title: Adding Resources to your Network
 ---
-# Adding Resources to your Network
-
 ## Add a peer to your DevZero network
 
 1. Get a shell inside the node that you want to add to the network.

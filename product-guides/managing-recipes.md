@@ -1,8 +1,6 @@
 ---
 title: Managing Recipes
 ---
-# Managing Recipes
-
 <details>
 
 <summary>Managing Your Recipes</summary>

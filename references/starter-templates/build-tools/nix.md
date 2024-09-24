@@ -1,8 +1,6 @@
 ---
 title: Nix
 ---
-# Nix
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

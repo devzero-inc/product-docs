@@ -2,9 +2,6 @@
 description: Edge compute regions supported by the hosted DevZero platform
 title: Supported Regions
 ---
-
-# Supported Regions
-
 <figure><img src="./../../.gitbook/assets/edge-regions.png" alt=""><figcaption></figcaption></figure>
 
 | Region Code | City Code  | Geographic Location        | Status               |

@@ -1,8 +1,6 @@
 ---
 title: Bazel
 ---
-# Bazel
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

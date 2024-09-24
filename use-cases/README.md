@@ -1,8 +1,6 @@
 ---
 title: Use Cases
 ---
-# Use Cases
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

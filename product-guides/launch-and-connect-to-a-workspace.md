@@ -1,8 +1,6 @@
 ---
 title: Launch & Connect to a Workspace
 ---
-# Launch & Connect to a Workspace
-
 <figure><img src="../.gitbook/assets/CleanShot 2024-05-01 at 20.53.52@2x (1).png" alt=""><figcaption><p>Launch a workspace</p></figcaption></figure>
 
 You can launch a workspace based on any recipe template that you have access to. Navigate to the recipes tab and find the recipe you'd like to use as the baseline for your environment. Next, click the 'Launch' button to build an environment based on that recipe template.

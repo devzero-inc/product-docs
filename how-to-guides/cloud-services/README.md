@@ -1,8 +1,6 @@
 ---
 title: Cloud Services
 ---
-# Cloud Services
-
 <table data-card-size="large" data-view="cards">
     <thead>
         <tr>

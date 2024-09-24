@@ -1,8 +1,6 @@
 ---
 title: Internal Developer Platform (IDP
 ---
-# Internal Developer Platform (IDP
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

@@ -1,8 +1,6 @@
 ---
 title: Azure Blob Storage
 ---
-# Azure Blob Storage
-
 Connecting to an Azure Blob Storage from your DevBox.
 
 ## Architecture Diagram

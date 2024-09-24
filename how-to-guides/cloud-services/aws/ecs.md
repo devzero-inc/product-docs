@@ -1,8 +1,6 @@
 ---
 title: ECS
 ---
-# ECS
-
 ## Installation guide
 
 You can run services and tasks managed by AWS ECS inside of DevBoxes using [AWS ECS Anywhere](https://aws.amazon.com/ecs/anywhere).

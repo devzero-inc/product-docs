@@ -1,8 +1,6 @@
 ---
 title: OpenSearch
 ---
-# OpenSearch
-
 Connecting to OpenSearch running in the private subnet of AWS VPC from your DevBox.
 
 ## Architecture Diagram

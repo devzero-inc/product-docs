@@ -1,8 +1,6 @@
 ---
 title: GCP Firestore (Datastore Mode)
 ---
-# GCP Firestore (Datastore Mode)
-
 Connecting to an Firestore instance to your DevBox.
 
 ## Architecture Diagram

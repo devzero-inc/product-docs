@@ -1,8 +1,6 @@
 ---
 title: Workspaces
 ---
-# Workspaces
-
 <details>
 
 <summary>A service (e.g. Docker Daemon) is not running</summary>

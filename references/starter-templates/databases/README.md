@@ -1,8 +1,6 @@
 ---
 title: Database tools
 ---
-# Database tools
-
 <table data-card-size="large" data-view="cards">
    <thead>
       <tr>

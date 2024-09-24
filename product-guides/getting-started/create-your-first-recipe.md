@@ -1,8 +1,6 @@
 ---
 title: Create Your First Recipe
 ---
-# Create Your First Recipe
-
 A [recipe](https://www.devzero.io/dashboard/workspaces/new) can be thought of as a template for a given environment. This could be an environment for development, testing, QA, or anything you need!
 
 All workspaces are launched from a recipe template, so to start using the platform, you'll need to create a recipe. We offer a few Quickstart examples for common stacks and use cases, which should be visible in your shared recipe library on the web console. Alternatively, you can create a custom recipe to meet your needs better.

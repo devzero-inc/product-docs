@@ -1,8 +1,6 @@
 ---
 title: Pulumi
 ---
-# Pulumi
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

@@ -1,8 +1,6 @@
 ---
 title: Helm
 ---
-# Helm
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

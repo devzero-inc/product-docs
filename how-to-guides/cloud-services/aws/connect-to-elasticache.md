@@ -1,9 +1,6 @@
 ---
 title: ElastiCache
 ---
-
-# ElastiCache
-
 Connecting to ElastiCache running in the private subnet of AWS VPC from your DevBox.
 
 ## Architecture Diagram

@@ -1,8 +1,6 @@
 ---
 title: Faster Onboarding
 ---
-# Faster Onboarding
-
 {% hint style="info" %}
 **Coming soon...**
 {% endhint %}

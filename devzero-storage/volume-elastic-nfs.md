@@ -1,8 +1,6 @@
 ---
 title: Volume (elastic NFS)
 ---
-# Volume (elastic NFS)
-
 DevZero's volumes are multi-attach multi-read-write capable volumes (similar to AWS EFS).
 Volumes are regional in nature and can be attached to any workspace in that region.
 

@@ -1,8 +1,6 @@
 ---
 title: User-scoped
 ---
-# User-scoped
-
 ## Saving an user-scoped environment variable
 
 Visit the Environment Variables section at [https://www.devzero.io/dashboard/environment-variables/user](https://www.devzero.io/dashboard/environment-variables/user) to add, remove, or update your user-scoped environment variables and secrets. User-scoped environment variables can only be seen, managed, and used by you.

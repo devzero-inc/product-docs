@@ -1,8 +1,6 @@
 ---
 title: Table of contents
 ---
-# Table of contents
-
 ## ℹ️ Getting Started
 
 * [Welcome to DevZero](README.md)

@@ -1,8 +1,6 @@
 ---
 title: Network
 ---
-# Network
-
 <details>
 
 <summary>Unable to connect to DevZero network when using Tailscale</summary>

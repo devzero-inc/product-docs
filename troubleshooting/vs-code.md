@@ -1,8 +1,6 @@
 ---
 title: Recipes
 ---
-# Recipes
-
 <details>
 
 <summary>Error while using `code` in the terminal of a Remote VS Code session</summary>

@@ -1,8 +1,6 @@
 ---
 title: Getting Started
 ---
-# Getting Started
-
 <details>
 
 <summary><strong>Step 1:</strong> Create an account</summary>

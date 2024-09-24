@@ -1,8 +1,6 @@
 ---
 title: Ruby
 ---
-# Ruby
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

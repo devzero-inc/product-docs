@@ -1,8 +1,6 @@
 ---
 title: Cloud Storage
 ---
-# Cloud Storage
-
 Connecting to GCP Cloud Storage Service from your DevBox.
 
 ## Architecture Diagram

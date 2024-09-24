@@ -1,8 +1,6 @@
 ---
 title: Connect to S3
 ---
-# Connect to S3
-
 ## Using the AWS CLI
 
 1. Install the [AWS CLI](../../../references/starter-templates/third-party/aws.md) into your DevBox.

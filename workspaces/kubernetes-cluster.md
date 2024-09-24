@@ -1,8 +1,6 @@
 ---
 title: Workspace Cluster
 ---
-# Workspace Cluster
-
 User workspaces are deploying with an [ephemeral, namespaced Kubernetes cluster](../references/terminology.md#workspace-cluster). If you need to interact with this cluster...
 
 If you prefer video from, [click here](kubernetes-cluster.md#tutorial-video) for a 5min video!

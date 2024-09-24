@@ -1,8 +1,6 @@
 ---
 title: Infra Templates
 ---
-# Infra Templates
-
 <table data-card-size="large" data-view="cards">
 	<thead>
 		<tr>

@@ -1,8 +1,6 @@
 ---
 title: Connect to SQS
 ---
-# Connect to SQS
-
 ## Using the AWS CLI
 
 1. Install the [AWS CLI](../../../references/starter-templates/third-party/aws.md) into your DevBox.

@@ -1,8 +1,6 @@
 ---
 title: User Management
 ---
-# User Management
-
 ## Inviting Teammates
 
 To invite a new member, click the top right icon->"Team settings"->"Invite team member"

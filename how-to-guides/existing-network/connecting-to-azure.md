@@ -2,9 +2,6 @@
 description: Learn how to connect to Azure resources privately from a DevBox.
 title: Connecting to Azure
 ---
-
-# Connecting to Azure
-
 In this guide you will know how to setup a Bastion Host on Azure Infrastructure. This Bastion Host will allow you to connect to Private Azure services and use them directly from your DevBox.
 
 If you're more of a visual learner, check out the [video tutorial](#video-walkthrough)!

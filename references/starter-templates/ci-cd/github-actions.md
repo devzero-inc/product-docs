@@ -1,8 +1,6 @@
 ---
 title: GitHub Actions
 ---
-# GitHub Actions
-
 ## Self-hosted runner
 
 These steps will allow you to create a workspace with all of the GitHub Actions required packages and binaries for a self-hosted runner

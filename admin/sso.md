@@ -1,8 +1,6 @@
 ---
 title: Single Sign-on (SSO
 ---
-# Single Sign-on (SSO
-
 Use-case:
 
 - Using your company's SSO to control your team's login to the DevZero Platform

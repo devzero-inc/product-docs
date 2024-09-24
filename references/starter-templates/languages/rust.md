@@ -1,8 +1,6 @@
 ---
 title: Rust
 ---
-# Rust
-
 {% code lineNumbers="true" %}
 ```yaml
 version: "3"

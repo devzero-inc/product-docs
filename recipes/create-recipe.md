@@ -1,8 +1,6 @@
 ---
 title: Creating a Recipe
 ---
-# Creating a Recipe
-
 {% embed url="https://devzero.b-cdn.net/create-first-recipe.mp4" %}
 Create your first DevZero Recipe!
 {% endembed %}

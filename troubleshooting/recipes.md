@@ -1,8 +1,6 @@
 ---
 title: Recipes
 ---
-# Recipes
-
 <details>
 <summary>ERROR: mount options is too long</summary>
 You are probably reading this because you encountered an error that looks like this when building a recipe:
