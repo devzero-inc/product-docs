@@ -10,7 +10,7 @@ layout:
     visible: true
   pagination:
     visible: true
-
+title: Starter Templates
 ---
 
 ## Starter Templates

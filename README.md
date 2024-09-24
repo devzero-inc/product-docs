@@ -11,7 +11,7 @@ layout:
     visible: false
   pagination:
     visible: false
-
+title: DevZero
 ---
 
 ## Welcome to DevZero
