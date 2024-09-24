@@ -3,6 +3,8 @@ title: ECS
 ---
 # ECS
 
+If you're more of a visual learner, check out the [video tutorial](#video-walkthrough)!
+
 ## Installation guide
 
 You can run services and tasks managed by AWS ECS inside of DevBoxes using [AWS ECS Anywhere](https://aws.amazon.com/ecs/anywhere).
@@ -89,3 +91,7 @@ launch:
 </strong></code></pre>
 
 When running tasks/services you should now be able to select "External" launch type in order to run them on your DevBoxes.
+
+## Video Walkthrough
+
+{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20AWS%20ECS.mp4" %}
