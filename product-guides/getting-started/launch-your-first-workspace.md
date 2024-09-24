@@ -1,7 +1,7 @@
 ---
 title: Launch and Connect to Your First Workspace
 ---
-<figure><img src="../../.gitbook/assets/CleanShot 2024-05-01 at 20.53.52@2x.png" alt=""><figcaption><p>How to launch a workspace</p></figcaption></figure>
+![How to launch a workspace](../../.gitbook/assets/CleanShot%202024-05-01%20at%2020.53.52@2x.png)
 
 Now you've got a Recipe written and built, you can use that Recipe to launch a Workspace using that specification. Simply navigate to the [Recipe Library](https://www.devzero.io/dashboard/recipes) and find the Recipe you need. Then select the `Launch` button to create an environment from that recipe. During the Workspace Launch phase, any of your user preferences, config (shell config, dotfiles, etc), and env variables will all be applied.
 

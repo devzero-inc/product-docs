@@ -49,7 +49,7 @@ If you want to add volumes to your services/tasks:
 8. Create a new container mount point:\
    Select the container in question, the source volume and enter a mount path.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-31 at 14.53.21.png" alt=""><figcaption></figcaption></figure>
+![Adding a new volume](../../../.gitbook/assets/Screenshot%202024-07-31%20at%2014.53.21.png)
 
 The new volume should now be available after your task has been created:
 
@@ -57,7 +57,7 @@ The new volume should now be available after your task has been created:
 docker volumes ls
 ```
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-31 at 14.54.42.png" alt=""><figcaption></figcaption></figure>
+![Volume available in the container](../../../.gitbook/assets/Screenshot%202024-07-31%20at%2014.54.42.png)
 
 {% hint style="warning" %}
 If you select "Configure at deployment" in your task definition, you might not be able to deploy it to the external instance type, because this configuration only supports Amazon EBS, which is not available with external instances.

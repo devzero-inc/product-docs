@@ -11,7 +11,7 @@ Developers can use these [specifications](recipes/syntax.md) alongside our CLI t
 
 ## How does it work?
 
-<figure><img src=".gitbook/assets/computer-to-workspace-devbox.jpg" alt=""><figcaption><p>The relationship between your computer and DevZero's workspaces and DevBoxes</p></figcaption></figure>
+![The relationship between your computer and DevZero's workspaces and DevBoxes](.gitbook/assets/computer-to-workspace-devbox.jpg)
 
 The DevZero platform consists of the following key components:
 

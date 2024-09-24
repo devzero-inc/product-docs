@@ -11,7 +11,7 @@ Recipes have two execution stages that you can customize:
 
 Irrespective of the stage, [command](syntax.md#command) blocks will be executed in the order in which they are specified in the recipe.
 
-<figure><img src="../.gitbook/assets/exec-stages.png" alt=""><figcaption><p>Execution stages (difference between built- and launch-time)</p></figcaption></figure>
+![Execution stages (difference between built- and launch-time)](../.gitbook/assets/exec-stages.png)
 
 <details>
 
@@ -95,7 +95,7 @@ Use-cases:
 * Users in your team don't need to wait for workspaces to build.
 * Users in your team want to start with workspaces that are already configured with golden paths.
 
-<figure><img src="../.gitbook/assets/buildtime-in-recipe.png" alt=""><figcaption><p>Code block in a recipe</p></figcaption></figure>
+![Code block in a recipe](../.gitbook/assets/buildtime-in-recipe.png)
 
 <details>
 
@@ -137,7 +137,7 @@ launch:
       user: root
 ```
 
-<figure><img src="../.gitbook/assets/runtime-in-recipe.png" alt=""><figcaption><p>Code block in a recipe</p></figcaption></figure>
+![Code block in a recipe](../.gitbook/assets/runtime-in-recipe.png)
 
 <details>
 

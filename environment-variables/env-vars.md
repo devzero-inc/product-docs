@@ -27,10 +27,10 @@ runtime:
       value: "{{secret:team.TEST_TEAM_ENV}}"
     - name: TEST_USER_ENV
       value: "{{secret:user.TEST_USER_ENV}}"
-    - name: FOO 
+    - name: FOO
       value: "bar"
 ```
 
-<figure><img src="../.gitbook/assets/env-var-in-build.png" alt=""><figcaption><p>Environment Variables in Builds</p></figcaption></figure>
+![Environment Variables in Builds](../.gitbook/assets/env-var-in-build.png)
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Team</td><td>Environment variables that are shared across your team.</td><td><a href="team.md">team.md</a></td><td><a href="../.gitbook/assets/multiple-users-silhouette.png">multiple-users-silhouette.png</a></td></tr><tr><td>Personal</td><td>Environment variables that can only be accessed by the current user.</td><td><a href="personal.md">personal.md</a></td><td><a href="../.gitbook/assets/single-user-silhouette.png">single-user-silhouette.png</a></td></tr></tbody></table>

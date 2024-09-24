@@ -7,7 +7,7 @@ Secrets are used to store and reference secret values.
 To store a secret, navigate to the environment variables page and add a new key-value pair. Before saving, be sure to check "Secret". This stores the environment variable as a secret with the additional protections described below.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-18 at 15.36.52.png" alt=""><figcaption></figcaption></figure>
+![Secrets](../.gitbook/assets/Screenshot%202024-07-18%20at%2015.36.52.png)
 
 Once a secret is saved, its value cannot be viewed or modified. You can only replace or delete the value. Otherwise, secrets work just like other environment variables.
 

@@ -12,7 +12,7 @@ dz workspace list
 
 You will see something like this...
 
-<figure><img src="../.gitbook/assets/dz-ws-list.png" alt=""><figcaption></figcaption></figure>
+![Workspace List](../.gitbook/assets/dz-ws-list.png)
 
 You can interact with this via:
 

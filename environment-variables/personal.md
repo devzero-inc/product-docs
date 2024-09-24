@@ -9,11 +9,11 @@ Visit the Environment Variables section at [https://www.devzero.io/dashboard/env
 User-scoped environment variables are automatically made available on each of your running workspaces by default.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Personal variables.gif" alt=""><figcaption><p>Adding personal environment variables</p></figcaption></figure>
+![Adding personal environment variables](../.gitbook/assets/Personal%20variables.gif)
 
 ## Using an environment variable
 
-<figure><img src="../.gitbook/assets/Update environment variables (1).png" alt=""><figcaption><p>Personal Environment Variables</p></figcaption></figure>
+![Personal Environment Variables](../.gitbook/assets/Update%20environment%20variables%20(1).png)
 
 Using an environment variable within your workspace is how you would normally use any environment variable (eg: `echo $NOT_SO_SECRET_KEY`).
 
@@ -23,6 +23,6 @@ Note: User secrets are not available during build time, they are only available 
 
 To use it in a recipe, you can reference it the same way. If your environment variable is called `MY_KEY`:
 
-<figure><img src="../.gitbook/assets/env-var-in-build.png" alt=""><figcaption><p>Environment Variables during build-stage</p></figcaption></figure>
+![Environment Variables during build-stage](../.gitbook/assets/env-var-in-build.png)
 
 Need to store a secret environment variable? Check out the [secrets.md](secrets.md "mention") page.

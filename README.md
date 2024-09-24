@@ -111,7 +111,7 @@ _Use your existing tech stack, databases, services, and more by following our se
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/CleanShot 2024-06-13 at 19.19.00@2x.png" alt=""><figcaption><p>Some of our supported services and tools</p></figcaption></figure>
+![Some of our supported services and tools](.gitbook/assets/CleanShot%202024-06-13%20at%2019.19.00@2x.png)
 
 </div>
 

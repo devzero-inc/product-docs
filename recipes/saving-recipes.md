@@ -12,4 +12,4 @@ If you don't have any recipes yet, please follow the "[Creating a Recipe](create
 2. Open the menu by pressing the **3 dots icon** on the recipe you want to share.
 3. Click on Copy Link to share the recipe source code with your colleagues.
 
-<figure><img src="https://devzero.b-cdn.net/copy-recipe.gif" alt=""><figcaption></figcaption></figure>
+![Copy Recipe](https://devzero.b-cdn.net/copy%20recipe.gif)

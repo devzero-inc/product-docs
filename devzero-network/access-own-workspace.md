@@ -17,7 +17,7 @@ dz network status
 
 You will see an output that looks like this:
 
-<figure><img src="../.gitbook/assets/net-status.png" alt=""><figcaption><p>dz network status</p></figcaption></figure>
+![dz network status](../.gitbook/assets/net-status.png)
 
 You can use either the hostname or the IP to make network requests when accessing running applications inside the DevBox.
 

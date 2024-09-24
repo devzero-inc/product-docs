@@ -17,7 +17,7 @@ build:
       url: https://github.com/vercel/next.js
 ```
 
-<figure><img src="../.gitbook/assets/repos-in-recipe.png" alt=""><figcaption><p>Code block in a recipe</p></figcaption></figure>
+![Code block in a recipe](../.gitbook/assets/repos-in-recipe.png)
 
 <details>
 

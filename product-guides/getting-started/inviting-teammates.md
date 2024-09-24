@@ -5,7 +5,7 @@ title: Inviting Users & Managing Permissions
 
 You can invite additional users and manage existing users' access and permissions by navigating to [https://www.devzero.io/dashboard/settings/team-settings](https://www.devzero.io/dashboard/settings/team-settings).
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-05-01 at 20.42.09@2x.png" alt=""><figcaption><p>User Invite &#x26; Management Settings</p></figcaption></figure>
+![User Invite & Management Settings](../../.gitbook/assets/CleanShot%202024-05-01%20at%2020.42.09@2x.png)
 
 <details>
 

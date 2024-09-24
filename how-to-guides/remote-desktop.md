@@ -72,4 +72,4 @@ Type in the server address above and click on "Connect", if promted, enter the p
 For the Docker-based install, the default password is **vncpassword**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-06 at 13.04.47.png" alt=""><figcaption><p>DevBox Remote Desktop</p></figcaption></figure>
+![DevBox Remote Desktop](../.gitbook/assets/Screenshot%202024-08-06%20at%2013.04.47.png)
