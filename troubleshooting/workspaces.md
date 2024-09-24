@@ -1,7 +1,6 @@
 ---
 title: Workspaces
 ---
-# Workspaces
 
 <details>
 

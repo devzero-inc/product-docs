@@ -1,7 +1,6 @@
 ---
 title: Cloud Storage
 ---
-# Cloud Storage
 
 Connecting to GCP Cloud Storage Service from your DevBox.
 
@@ -15,29 +14,23 @@ Connecting to GCP Cloud Storage Service from your DevBox.
 
 1. Go to your **DevBox** and install Gcloud SDK:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates gnupg curl
 sudo apt-get update && sudo apt-get install google-cloud-cli
 ```
-{% endcode %}
 
 2. Authenticate your GCP account with Gcloud SDK:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 gcloud init
 ```
-{% endcode %}
 
 3. Access your cloud storage list by:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 gsutil ls gs://<storage-name>
 ```
-{% endcode %}
 
 ![image](../../../.gitbook/assets/gcp-cloudstorage-access.png)
 
@@ -55,28 +48,22 @@ gsutil ls gs://<storage-name>
 
 1. Go to your **DevBox** and install Gcloud SDK:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates gnupg curl
 sudo apt-get update && sudo apt-get install google-cloud-cli
 ```
-{% endcode %}
 
 2. Authenticate your GCP account with Gcloud SDK:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 gcloud init
 ```
-{% endcode %}
 
 3. Access your cloud storage list by:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 gsutil ls gs://<storage-name>
 ```
-{% endcode %}
 
 ![image](../../../.gitbook/assets/gcp-cloudstorage-access.png)

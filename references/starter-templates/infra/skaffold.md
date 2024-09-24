@@ -1,9 +1,7 @@
 ---
 title: Skaffold
 ---
-# Skaffold
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -17,4 +15,3 @@ build:
         rm skaffold
       user: devzero
 ```
-{% endcode %}

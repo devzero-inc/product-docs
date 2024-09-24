@@ -3,7 +3,6 @@ description: Learn how to connect to Azure resources privately from a DevBox.
 title: Connecting to Azure
 ---
 
-# Connecting to Azure
 
 In this guide you will know how to setup a Bastion Host on Azure Infrastructure. This Bastion Host will allow you to connect to Private Azure services and use them directly from your DevBox.
 
@@ -87,4 +86,4 @@ ping <ip_address>
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)

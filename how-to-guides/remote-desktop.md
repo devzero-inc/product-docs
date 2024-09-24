@@ -1,7 +1,6 @@
 ---
 title: Remote Desktop
 ---
-# Remote Desktop
 
 You can access your DevBox interactively using Remote Desktop.
 
@@ -57,9 +56,7 @@ You will be prompted to create a password.
 
 ## Connecting to a remote desktop
 
-{% hint style="info" %}
-Make sure your machine is connected to the DevZero network before connecting
-{% endhint %}
+> Make sure your machine is connected to the DevZero network before connecting
 
 You can connect to the remote desktop using the VNC protocol.
 
@@ -70,8 +67,6 @@ vnc://<your-devbox-hostname>:5901
 On macOS, open **"Finder" > "Go" > "Connect to server".**\
 Type in the server address above and click on "Connect", if promted, enter the password you've selected.
 
-{% hint style="success" %}
-For the Docker-based install, the default password is **vncpassword**
-{% endhint %}
+> For the Docker-based install, the default password is **vncpassword**
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-06 at 13.04.47.png" alt=""><figcaption><p>DevBox Remote Desktop</p></figcaption></figure>

@@ -1,7 +1,6 @@
 ---
 title: Overview
 ---
-# Overview
 
 ## What is a Workspace
 

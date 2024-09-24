@@ -5,7 +5,6 @@ description: >-
 title: Recipe Syntax
 ---
 
-# Recipe Syntax
 
 A recipe is a definition of a workspace. It consists of a base workspace configuration, and a set of steps to be executed. Let's look at a simple recipe:
 
@@ -68,9 +67,7 @@ You can have multiline commands, for example:
 
 Creates a file with some content.
 
-{% hint style="info" %}
-Paths are not using shell expansion, so you have to write out /home/devzero/projects rather than \~/projects
-{% endhint %}
+> Paths are not using shell expansion, so you have to write out /home/devzero/projects rather than \~/projects
 
 ```yaml
     - type: file
@@ -85,9 +82,7 @@ Paths are not using shell expansion, so you have to write out /home/devzero/proj
 
 Creates a directory.
 
-{% hint style="info" %}
-Same as with files path is not expanded, so \~ and environment variables will not be replaced with corresponding values
-{% endhint %}
+> Same as with files path is not expanded, so \~ and environment variables will not be replaced with corresponding values
 
 ```yaml
     - type: directory
@@ -155,9 +150,7 @@ Semantics for the directory are explained in [git documentation](https://git-scm
 
 Commands often require either their environment to be set up correctly, or secrets to access private resources. Both of these can be managed on [a per team or a per user basis](../environment-variables/env-vars.md).
 
-{% hint style="info" %}
-System secrets are in the namespace `devzero` currently only one such secret exists `devzero.GITHUB_ACCESS_TOKEN` this token is populated using github account information for the user who is invoking the build
-{% endhint %}
+> System secrets are in the namespace `devzero` currently only one such secret exists `devzero.GITHUB_ACCESS_TOKEN` this token is populated using github account information for the user who is invoking the build
 
 ### Environment variables
 
@@ -332,6 +325,4 @@ build:
 
 ```
 
-{% hint style="info" %}
-Note: User secrets cannot be accessed during build time. However, all user secrets are automatically available as environment variables within each user's workspace.
-{% endhint %}
+> Note: User secrets cannot be accessed during build time. However, all user secrets are automatically available as environment variables within each user's workspace.

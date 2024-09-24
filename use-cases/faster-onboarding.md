@@ -1,11 +1,8 @@
 ---
 title: Faster Onboarding
 ---
-# Faster Onboarding
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 * Reduce build and compile times
 * Ensure consistency of development environments

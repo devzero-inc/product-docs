@@ -1,9 +1,7 @@
 ---
 title: Java
 ---
-# Java
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -16,4 +14,3 @@ build:
         . "$HOME/.sdkman/bin/sdkman-init.sh"
         sdk install java
 ```
-{% endcode %}

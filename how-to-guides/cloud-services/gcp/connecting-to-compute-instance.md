@@ -1,7 +1,6 @@
 ---
 title: GCP Compute Instance
 ---
-# GCP Compute Instance
 
 Connecting to Compute Instance running in the private subnet of GCP VPC from your DevBox.
 
@@ -22,11 +21,9 @@ Follow [Connecting to GCP](../../existing-network/connecting-to-gcp.md) guide.
 3. Go to **DevBox** and make a copy of the key pair.
 4. Connect to Compute Instance:
 
-{% code lineNumbers="false" %}
 ```
 ssh -i "path/to/private/key" username@instance-ip
 ```
-{% endcode %}
 
 ![GCP Compute Instance Access](../../../.gitbook/assets/compute-instance-access.png)
 
@@ -47,10 +44,8 @@ ssh -i "path/to/private/key" username@instance-ip
 1. Go to the **DevBox** and make a copy of the key pair.
 2. Connect to the desired Compute instance using ssh and the new key pair:
 
-{% code lineNumbers="false" %}
 ```
 ssh -i "path/to/private/key" username@instance-ip
 ```
-{% endcode %}
 
 ![GCP Compute Instance Access](../../../.gitbook/assets/compute-instance-access.png)

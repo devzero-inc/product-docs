@@ -1,7 +1,6 @@
 ---
 title: Getting Started
 ---
-# Getting Started
 
 <details>
 

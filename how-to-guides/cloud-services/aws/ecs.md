@@ -1,7 +1,6 @@
 ---
 title: ECS
 ---
-# ECS
 
 ## Installation guide
 
@@ -31,9 +30,7 @@ chmod 700 ./ecs-anywhere-install.sh
 sudo ./ecs-anywhere-install.sh --region "<region>" --cluster "<ECS cluster>" --activation-id "<id>" --activation-code "<code>"
 ```
 
-{% hint style="info" %}
-Note: the installation script will also install Docker.
-{% endhint %}
+> Note: the installation script will also install Docker.
 
 The new instance should now be visible in the ECS console under **Your Cluster > Infrastructure > Container instances** as "External" instance type.
 
@@ -61,9 +58,7 @@ docker volumes ls
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-07-31 at 14.54.42.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-If you select "Configure at deployment" in your task definition, you might not be able to deploy it to the external instance type, because this configuration only supports Amazon EBS, which is not available with external instances.
-{% endhint %}
+> If you select "Configure at deployment" in your task definition, you might not be able to deploy it to the external instance type, because this configuration only supports Amazon EBS, which is not available with external instances.
 
 ## Recipe example
 

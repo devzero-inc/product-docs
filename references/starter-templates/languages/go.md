@@ -1,9 +1,7 @@
 ---
 title: Go
 ---
-# Go
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -34,4 +32,3 @@ build:
         echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' | tee -a /etc/profile.d/go-installation.sh
       user: root
 ```
-{% endcode %}

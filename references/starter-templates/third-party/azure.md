@@ -1,9 +1,7 @@
 ---
 title: Azure - az CLI
 ---
-# Azure - az CLI
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -15,4 +13,3 @@ build:
         curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
       user: devzero
 ```
-{% endcode %}

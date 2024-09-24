@@ -1,7 +1,6 @@
 ---
 title: Execution Stages
 ---
-# Execution Stages
 
 ## Overview
 
@@ -40,19 +39,15 @@ Each command block can be thought of as a layer in a Docker image. They are wrap
 
 `name` is used to help reference and understand what is being achieved in a command block.
 
-{% hint style="info" %}
-**Note** When invoking binaries, its always best-practice to reference them by their absolute paths. For example, `/usr/local/go/bin/go` instead of `go`. This relates to the following `warning` block.
-{% endhint %}
+> **Note** When invoking binaries, its always best-practice to reference them by their absolute paths. For example, `/usr/local/go/bin/go` instead of `go`. This relates to the following `warning` block.
 
-{% hint style="warning" %}
-**Warning** Environment variable set by calling `export` are not going to be available in subsequent command blocks. To use them in subsequent blocks, either write to some file, or to `/etc/environment`. Please see the previous `info` section for more ways to better utilize this.
-{% endhint %}
+
+> **Warning** Environment variable set by calling `export` are not going to be available in subsequent command blocks. To use them in subsequent blocks, either write to some file, or to `/etc/environment`. Please see the previous `info` section for more ways to better utilize this.
 
 While recipe builds are cached, updating a lower layer (eg: the first step in your build steps) will cause the cache to get invalidated for all future steps. Therefore, if you edit step 1 in a 5-step recipe, steps 2, 3, 4 and 5 will get rebuilt. If you just edit step 5, the previous steps will be served out of the cache.
 
 Here's an example of some build-time steps:
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -90,7 +85,6 @@ build:
       directory: /home/devzero
       user: root
 ```
-{% endcode %}
 
 For more examples, see check the build commands in our [starter-templates](../references/starter-templates/ "mention").
 
@@ -115,15 +109,12 @@ While calling operations to kick-off indexing in IDEs is technically feasible in
 
 These steps are run using `systemctl` units at launch-time. Command blocks will be executed in the order in which they are specified in the recipe.
 
-{% hint style="warning" %}
-The **launch** block is used for commands to be executed as launch-time steps.
-{% endhint %}
+> The **launch** block is used for commands to be executed as launch-time steps.
 
 Other than that, the same rules from the [Build-time](exec-stages.md#build-time) stage apply.
 
 Here's an example of some launch-time steps:
 
-{% code lineNumbers="true" %}
 ```yaml
 launch:
   steps:
@@ -141,7 +132,6 @@ launch:
       directory: /home/devzero
       user: root
 ```
-{% endcode %}
 
 <figure><img src="../.gitbook/assets/runtime-in-recipe.png" alt=""><figcaption><p>Code block in a recipe</p></figcaption></figure>
 

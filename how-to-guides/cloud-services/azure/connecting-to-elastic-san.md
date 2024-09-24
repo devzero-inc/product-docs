@@ -1,7 +1,6 @@
 ---
 title: Azure Elastic SAN
 ---
-# Azure Elastic SAN
 
 You connect to an Azure Elastic SAN Service running on Azure infrastructure from your DevBox.
 
@@ -29,7 +28,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -38,7 +36,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "python3", "libpython3-dev"]
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -61,9 +58,7 @@ To connect to the Elastic SAN volumes, we first need to create a Volume Group an
 6. Select **Yes** for **Integrate with private DNS zone** option, and click on **Ok**.
 7. After creating the endpoint, click on **Create**.
 
-{% hint style="info" %}
-You can also add your VNET by clicking on **Create** under the **Virtual Networks** section and entering the details of the VNET, which exists in the same region as the Elastic SAN instance.
-{% endhint %}
+> You can also add your VNET by clicking on **Create** under the **Virtual Networks** section and entering the details of the VNET, which exists in the same region as the Elastic SAN instance.
 
 ### Step 4: Creating a Volume
 
@@ -83,20 +78,16 @@ Now you need to follow the below steps to connect to DevBox:
 1. Connect to the workspace from your terminal.
 2. Create a Python script by using the following command:
 
-{% code %}
 ```
 sudo nano <file-name>.py
 ```
-{% endcode %}
 
 3. Paste in the connection script we got from the volume.
 4. Run the Python file with elevated access to make the connection:
 
-{% code %}
 ```
 sudo python3 <file-name>.py
 ```
-{% endcode %}
 
 ![Azure Elastic SAN access](../../../.gitbook/assets/azure-elastic-san-access.png)
 
@@ -111,15 +102,11 @@ If you need to make a new Elastic SAN instance and access it through DevZero's n
 3. Then input your SAN **Name**, **Region**, and **Redundancy** type.
 4. You can allocate the desired SAN size in the **Resource provisioning on Elastic SAN** section.
 
-{% hint style="info" %}
-Remember that the size of your SAN is directly proportional to the IOPS (Input/Output operations per second) and bandwidth allocated to the instance.
-{% endhint %}
+> Remember that the size of your SAN is directly proportional to the IOPS (Input/Output operations per second) and bandwidth allocated to the instance.
 
 5. In the **Networking** section, choose the **Disabled** option for **Public network access**.
 
-{% hint style="info" %}
-You can also choose the **Enabled** option and connect to a VNET if you have a VNET in the same **Region** as the Elastic SAN instance.
-{% endhint %}
+> You can also choose the **Enabled** option and connect to a VNET if you have a VNET in the same **Region** as the Elastic SAN instance.
 
 6. Click on **Review + Create** and click on **Create**.
 
@@ -131,7 +118,6 @@ You can also choose the **Enabled** option and connect to a VNET if you have a V
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -140,7 +126,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "python3", "libpython3-dev"]
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -163,9 +148,7 @@ To connect to the Elastic SAN volumes, we first need to create a Volume Group an
 6. Select **Yes** for **Integrate with private DNS zone** option, and click on **Ok**.
 7. After creating the endpoint, click on **Create**.
 
-{% hint style="info" %}
-You can also add your VNET by clicking on **Create** under the **Virtual Networks** section and entering the details of the VNET, which exists in the same region as the Elastic SAN instance.
-{% endhint %}
+> You can also add your VNET by clicking on **Create** under the **Virtual Networks** section and entering the details of the VNET, which exists in the same region as the Elastic SAN instance.
 
 ### Step 5: Creating a Volume
 
@@ -185,19 +168,15 @@ Now, you need to follow the below steps to connect to DevBox:
 1. Connect to the workspace from your terminal.
 2. Create a Python script by using the following command:
 
-{% code %}
 ```
 sudo nano <file-name>.py
 ```
-{% endcode %}
 
 3. paste in the connection script we got from the volume.
 4. Run the Python file with elevated access to make the connection:
 
-{% code %}
 ```
 sudo python3 <file-name>.py
 ```
-{% endcode %}
 
 ![Azure Elastic SAN access](../../../.gitbook/assets/azure-elastic-san-access.png)

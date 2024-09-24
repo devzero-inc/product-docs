@@ -1,7 +1,6 @@
 ---
 title: Supabase
 ---
-# Supabase
 
 Comprehensive guide for connecting to a Supabase Project from your DevBox.
 
@@ -27,19 +26,15 @@ Follow the below steps to do so:
 
 1. Use the following command to reload the local package database:
 
-{% code %}
 ```
 sudo apt-get update
 ```
-{% endcode %}
 
 2. Install the PostgresSQL :
 
-{% code %}
 ```
 sudo apt install postgresql-client
 ```
-{% endcode %}
 
 ![Postgres client install](../../.gitbook/assets/supabase-install.png)
 
@@ -78,19 +73,15 @@ Follow the below steps to do so:
 
 1. Use the following command to reload the local package database:
 
-{% code %}
 ```
 sudo apt-get update
 ```
-{% endcode %}
 
 2. Install the PostgresSQL :
 
-{% code %}
 ```
 sudo apt install postgresql-client
 ```
-{% endcode %}
 
 ![Postgres client install](../../.gitbook/assets/supabase-install.png)
 
@@ -110,4 +101,4 @@ To make the connection, follow the below steps:
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4)](https://devzero.b-cdn.net/How%20to%20Connect%20Supabase%20to%20Your%20Dev%20Box-inline-subtitles.mp4)

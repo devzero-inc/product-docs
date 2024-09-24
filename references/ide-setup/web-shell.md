@@ -1,11 +1,9 @@
 ---
 title: Web Shell (using GoTTY)
 ---
-# Web Shell (using GoTTY)
 
 There's a [walkthrough video](#walkthrough-video) at the bottom of this page if you want to see how everything looks!
 
-{% code lineNumbers="true" %}
 ```
 version: "3"
 build:
@@ -44,8 +42,7 @@ build:
         systemctl enable gotty.service
       user: root
 ```
-{% endcode %}
 
 ## Walkthrough Video
 
-{% embed url="https://devzero.b-cdn.net/Web%20shell.mp4" %}
+[![Walkthrough Video](https://devzero.b-cdn.net/Web%20shell.mp4)](https://devzero.b-cdn.net/Web%20shell.mp4)

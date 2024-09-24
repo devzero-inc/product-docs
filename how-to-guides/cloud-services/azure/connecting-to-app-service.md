@@ -1,7 +1,6 @@
 ---
 title: Azure App Services
 ---
-# Azure App Services
 
 You are connecting to an App Service running on your Azure infrastructure from your DevBox.
 
@@ -45,20 +44,16 @@ Follow the Below steps to access your Web App from your DevBox :
 
 1. Connect to the workspace using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo dz workspace connect <workspace-name>
 ```
-{% endcode %}
 
 2. Copy the **Default domain** of the **App Service** you want to access.
 3. Connect to the **App Service**:
 
-{% code lineNumbers="false" %}
 ```
 curl -X GET <default-domain>
 ```
-{% endcode %}
 
 ![Azure App Service Access](../../../.gitbook/assets/azure-app-service-access.png)
 
@@ -183,19 +178,15 @@ Follow the Below steps to access your Web App from your DevBox :
 
 1. Connect to the workspace using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo dz workspace connect <workspace-name>
 ```
-{% endcode %}
 
 2. Copy the **Default domain** of the **App Service** you want to access.
 3. Connect to the **App Service**:
 
-{% code lineNumbers="false" %}
 ```
 curl -X GET <default-domain>
 ```
-{% endcode %}
 
 ![Azure App Service Access](../../../.gitbook/assets/azure-app-service-access.png)

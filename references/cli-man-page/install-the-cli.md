@@ -1,7 +1,6 @@
 ---
 title: Install the CLI
 ---
-# Install the CLI
 
 These instructions will guide you through the DevZero CLI installation process based on your local operating system. The CLI enables building, launching, and connecting to workspaces.
 
@@ -12,11 +11,9 @@ These instructions will guide you through the DevZero CLI installation process b
 
 **Make sure to run the following commands after installation to continue with the setup process:**
 
-{% code fullWidth="true" %}
 ```
 dz auth login
 ```
-{% endcode %}
 
 ```
 dz net connect

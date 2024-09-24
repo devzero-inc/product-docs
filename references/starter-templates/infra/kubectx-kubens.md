@@ -1,9 +1,7 @@
 ---
 title: Kubectx and Kubens
 ---
-# Kubectx and Kubens
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -19,4 +17,3 @@ build:
         chmod +x /usr/local/bin/kubens
       user: root
 ```
-{% endcode %}

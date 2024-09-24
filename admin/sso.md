@@ -1,7 +1,6 @@
 ---
 title: Single Sign-on (SSO
 ---
-# Single Sign-on (SSO
 
 Use-case:
 
@@ -19,6 +18,4 @@ Many organizations use SSO to easily manage onboarding and offboarding of employ
 
 You can also create this as a [secret GitHub Gist](https://gist.github.com/) and send us a link!
 
-{% hint style="info" %}
-**Note...** We are aware that depending on the SSO provider you use, we might have to provide you a couple bits of information to put in your SSO Admin Portal. We will reach out to you if that's the case!
-{% endhint %}
+> **Note...** We are aware that depending on the SSO provider you use, we might have to provide you a couple bits of information to put in your SSO Admin Portal. We will reach out to you if that's the case!

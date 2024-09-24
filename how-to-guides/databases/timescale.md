@@ -1,7 +1,6 @@
 ---
 title: Timescale
 ---
-# Timescale
 
 Comprehensive guide for connecting to a Timescale Database from your DevBox.
 
@@ -27,7 +26,6 @@ You will need to create a Recipe in DevZero equipped with the necessary tools li
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe yaml file with the snippet below:
 
-{% code %}
 ```
 version: "3"
 
@@ -36,7 +34,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "postgresql-client"]
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -80,11 +77,9 @@ Now, with everything set, you just need to use the connection string to access t
 
 4. Go to DevBox, paste the connection string, and enter the password when prompted:
 
-{% code %}
 ```
 psql "postgres://<username>@<host-id>.<database-name>.cloud.timescale.com:30035/<database-name>?sslmode=require"
 ```
-{% endcode %}
 
 ![Timescale database access](../../.gitbook/assets/timescale-access.png)
 
@@ -122,7 +117,6 @@ You will need to create a Recipe in DevZero equipped with the necessary tools li
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe yaml file with the snippet below:
 
-{% code %}
 ```
 version: "3"
 
@@ -131,7 +125,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "postgresql-client"]
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -154,10 +147,8 @@ Now, with everything set, you just need to use the connection string to access t
 
 4. Go to DevBox, paste the connection string, and enter the password when prompted.
 
-{% code %}
 ```
 psql "postgres://<username>@<host-id>.<database-name>.cloud.timescale.com:30035/<database-name>?sslmode=require"
 ```
-{% endcode %}
 
 ![Timescale database access](../../.gitbook/assets/timescale-access.png)

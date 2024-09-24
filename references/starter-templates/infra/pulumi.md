@@ -1,9 +1,7 @@
 ---
 title: Pulumi
 ---
-# Pulumi
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -16,4 +14,3 @@ build:
         echo 'export PATH=$PATH:/home/devzero/.pulumi/bin' | sudo tee /etc/profile.d/151-pulumi-installation.sh
       user: devzero
 ```
-{% endcode %}

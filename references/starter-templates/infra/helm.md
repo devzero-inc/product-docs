@@ -1,9 +1,7 @@
 ---
 title: Helm
 ---
-# Helm
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -18,4 +16,3 @@ build:
         rm get_helm.sh
       user: devzero
 ```
-{% endcode %}

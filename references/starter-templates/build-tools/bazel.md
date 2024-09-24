@@ -1,9 +1,7 @@
 ---
 title: Bazel
 ---
-# Bazel
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -20,4 +18,3 @@ build:
             - jdk1.8
           distribution: stable
 ```
-{% endcode %}

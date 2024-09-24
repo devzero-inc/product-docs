@@ -1,11 +1,9 @@
 ---
 title: AWS
 ---
-# AWS
 
 ## AWS CLI
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -20,11 +18,9 @@ build:
         sudo ./aws/install
         rm -rf aws awscliv2.zip
 ```
-{% endcode %}
 
 ## Docker Credential ECR Login
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -38,4 +34,3 @@ build:
         chmod +x docker-credential-ecr-login
         sudo mv docker-credential-ecr-login /usr/local/bin
 ```
-{% endcode %}

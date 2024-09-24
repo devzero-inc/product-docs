@@ -1,9 +1,7 @@
 ---
 title: Python
 ---
-# Python
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -20,7 +18,6 @@ build:
         python get-pip.py
         rm get-pip.py
 ```
-{% endcode %}
 
 To automatically enter a `virtualenv` when you connect to a workspace, configure your `.bashrc` file (see the last build step in the recipe below):
 

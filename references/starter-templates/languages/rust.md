@@ -1,9 +1,7 @@
 ---
 title: Rust
 ---
-# Rust
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -17,4 +15,3 @@ build:
         rustup install 1.80.0
         rustup default 1.80.0
 ```
-{% endcode %}

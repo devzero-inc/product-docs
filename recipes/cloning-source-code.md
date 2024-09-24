@@ -1,7 +1,6 @@
 ---
 title: Cloning Source Code
 ---
-# Cloning Source Code
 
 The repos block of our [recipe specification](syntax.md#git-clone) is used to clone code. This will use the [permissions of the GitHub application](https://docs.devzero.io/product-docs/admin/permissions) you have connected with DevZero.
 
@@ -29,7 +28,6 @@ This usually applies to cases where you need to use secrets to clone code. To le
 
 You can use a [`command`](syntax.md#command) block to clone code directly:
 
-{% code lineNumbers="true" %}
 ```yaml
 dev:
     commands:
@@ -58,7 +56,6 @@ dev:
       directory: /home/devzero
       name: clone private repo over ssh using a deploy key
 ```
-{% endcode %}
 
 Some of the use cases where this is applicable:
 
@@ -85,21 +82,17 @@ Some of the use cases where this is applicable:
 
 ## Step 3(a). Generate keys
 
-{% code %}
 ```
 ssh-keygen -t ed25519 -C "devzero-user@my-website.com" -f devzero_id25519 -P '' -q
 ```
-{% endcode %}
 
 ## Step 3(b). Add the public key to your Bitbucket repo's access keys
 
 First, copy the public key
 
-{% code %}
 ```
 cat ~/.ssh/devzero_id25519.pub | pbcopy
 ```
-{% endcode %}
 
 Then, paste it in the `Key` section in the pop-up box.
 
@@ -113,11 +106,9 @@ Check the private key
 
 Copy it
 
-{% code %}
 ```
 cat ~/.ssh/devzero_id25519 | pbcopy
 ```
-{% endcode %}
 
 Then paste it into your team's secrets section at [https://www.devzero.io/dashboard/environment-variables/team](https://www.devzero.io/dashboard/environment-variables/team)
 
@@ -129,7 +120,6 @@ Call it `BITBUCKET_PVT_KEY` (or whatever you please, but this is referenced in S
 
 Create a recipe and add a block that looks like the one below (check `line 5` to ensure naming).
 
-{% code %}
 ```yaml
 dev:
   commands:
@@ -142,7 +132,6 @@ dev:
       dir: .
       name: clone_from_bitbucket
 ```
-{% endcode %}
 
 ## Step 5. Launch a workspace from that recipe
 

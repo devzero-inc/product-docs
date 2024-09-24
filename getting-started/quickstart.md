@@ -3,13 +3,12 @@ description: 'Estimated time to complete: ~5 mins'
 title: Quickstart
 ---
 
-# Quickstart
 
 **Welcome!** :wave:
 
 Follow the steps below to get started on the DevZero platform. Or, if you're more of a visual learner, we have a video tutorial as well!
 
-{% embed url="https://devzero.b-cdn.net/Onboarding%20v2.mp4" %}
+[![Onboarding Video](https://devzero.b-cdn.net/Onboarding%20v2.mp4)](https://devzero.b-cdn.net/Onboarding%20v2.mp4)
 
 ## Step 1. Signing up for an account
 
@@ -27,9 +26,7 @@ We currently only offer native support for GitHub as a code provider for DevZero
 
 If you only plan to work with public repositories, you do not need to enable our GitHub integration. However, if you'd like to work with private codebases, you'll need to head to [https://www.devzero.io/dashboard/settings/user-settings](https://www.devzero.io/dashboard/settings/user-settings) and complete the installation and authorization steps.
 
-{% hint style="info" %}
-For more information (including a hack to use Bitbucket and GitLab repos), see our [Source Code in Recipes](./../recipes/cloning-source-code.md) guide.
-{% endhint %}
+> For more information (including a hack to use Bitbucket and GitLab repos), see our [Source Code in Recipes](./../recipes/cloning-source-code.md) guide.
 
 ## Step 3. Creating Your First Recipe
 
@@ -108,13 +105,10 @@ To install in WSL 2 (**does not** work on WSL 1):
 
 <figure><img src="../.gitbook/assets/Connect to workspace (1).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-**Please be sure to run these two commands after the installer finishes:**
-
-```
-sudo dz auth login && sudo dz net connect
-```
-{% endhint %}
+> **Please be sure to run these two commands after the installer finishes:**
+> ```
+> sudo dz auth login && sudo dz net connect
+> ```
 
 ## Step 6. Connecting to your Workspace
 

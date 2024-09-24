@@ -1,11 +1,8 @@
 ---
 title: Ephemeral Kubernetes Cluster
 ---
-# Ephemeral Kubernetes Cluster
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 DevZero's workspaces are backed by ephemeral, virtualized Kubernetes clusters. Depending on the service tier and/or deployment models that you are being served from, one of the following will apply:
 

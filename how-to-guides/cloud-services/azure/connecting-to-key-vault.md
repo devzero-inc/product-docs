@@ -1,7 +1,6 @@
 ---
 title: Azure Key Vault
 ---
-# Azure Key Vault
 
 You are connecting to an Azure Key Vault from your DevBox.
 
@@ -41,22 +40,18 @@ Now, to retrieve the value from the secrets using the API, you need to set **Ser
 3. Go to **All applications** and click on the app you just created.
 4. Copy the **Client ID** and **Tenant ID** and add it to the DevBox environmental variables.
 
-{%code%}
 ```
 export AZURE_CLIENT_ID=<client-id>
 export AZURE_TENANT_ID=<tenant-id>
 ```
-{%endcode%}
 
 5. Click on **Client credentials** and click on **New client secret**.
 6. Enter the description if you want to, and click on **Add**.
 7. Copy the **Value** of the client secret you just created and add it to the environmental variables of your DevBox by using the following command.
 
-{%code%}
 ```
 export AZURE_CLIENT_SECRET=<client-secret>
 ```
-{%endcode%}
 
 8. Now, go to **Home > Key Vaults** and click on the key vault you want to access.
 9. Then go to **Access Control (IAM)** and click on **Add role assignment**.
@@ -70,16 +65,13 @@ Here we are using Python to show the key vault usage, you can choose other progr
 
 1. Install the required packages using the following command:
 
-{%code%}
 ```
 pip install azure-identity
 pip install azure-keyvault-secrets
 ```
-{%endcode%}
 
 2. Write the following Python script to retrieve the secret:
 
-{%code%}
 ```
 from azure.identity import ClientSecretCredential
 from azure.keyvault.secrets import SecretClient
@@ -89,7 +81,6 @@ client_id = os.environ['CLIENT_ID']
 tenant_id = os.environ['TENANT_ID']
 client_secret = os.environ['CLIENT_SECRET']
 vault_url = f"https://test-vault-devzero.vault.azure.net/"
-
 
 secret_name = "Devzero-key"
 
@@ -105,7 +96,6 @@ secret = secret_client.get_secret(secret_name)
 
 print("The secret value is :" + secret.value)
 ```
-{%endcode%}
 
 ![Azure Key Vault access](../../../.gitbook/assets/azure-key-vault-access.png)
 
@@ -150,22 +140,18 @@ Now, to retrieve the value from the secrets using the API, you need to set **Ser
 3. Go to **All applications** and click on the app you just created.
 4. Copy the **Client ID** and **Tenant ID** and add it to the DevBox environmental variables.
 
-{%code%}
 ```
 export AZURE_CLIENT_ID=<client-id>
 export AZURE_TENANT_ID=<tenant-id>
 ```
-{%endcode%}
 
 5. Click on **Client credentials** and click on **New client secret**.
 6. Enter the description if you want to, and click on **Add**.
 7. Copy the **Value** of the client secret you just created and add it to the environmental variables of your DevBox by using the following command.
 
-{%code%}
 ```
 export AZURE_CLIENT_SECRET=<client-secret>
 ```
-{%endcode%}
 
 ![Azure Key Vault service principals](../../../.gitbook/assets/azure-key-vault-principal.png)
 
@@ -181,16 +167,13 @@ Here we are using Python to show the key vault usage, you can choose other progr
 
 1. Install the required packages using the following command:
 
-{%code%}
 ```
 pip install azure-identity
 pip install azure-key vault-secrets
 ```
-{%endcode%}
 
 2. Write the following Python script to retrieve the secret:
 
-{%code%}
 ```
 from azure.identity import ClientSecretCredential
 from azure.keyvault.secrets import SecretClient
@@ -200,7 +183,6 @@ client_id = os.environ['CLIENT_ID']
 tenant_id = os.environ['TENANT_ID']
 client_secret = os.environ['CLIENT_SECRET']
 vault_url = f"https://test-vault-devzero.vault.azure.net/"
-
 
 secret_name = "devzero-key"
 
@@ -216,6 +198,5 @@ secret = secret_client.get_secret(secret_name)
 
 print("The secret value is :" + secret.value)
 ```
-{%endcode%}
 
 ![Azure Key Vault access](../../../.gitbook/assets/azure-key-vault-access.png)

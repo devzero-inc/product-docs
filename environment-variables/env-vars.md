@@ -1,7 +1,6 @@
 ---
 title: Overview
 ---
-# Overview
 
 Environment variables are materially public in nature. If you want to store or reference a secret value, see [Secrets](secrets.md).
 
@@ -12,11 +11,8 @@ These are usually used by when:
 
 Once an environment variable is saved, it will be visible in the UI or CLI. It will be available at build- or launch-time. It will also be available in the running workspaces.
 
-{% hint style="warning" %}
-**Reserved prefix** `DEVZERO_` is a reserved prefix used by the platform. They may change at any time so relying on them is not advisable.
-
-You may store environment variables or secrets with line breaks.
-{% endhint %}
+> **Reserved prefix** `DEVZERO_` is a reserved prefix used by the platform. They may change at any time so relying on them is not advisable.
+> You may store environment variables or secrets with line breaks.
 
 You can access environment variables within builds or at launch-time. If your variable is called `MY_KEY`, to access its value anywhere, use `$MY_KEY`. At runtime, you can use the `env` binary to verify that the secrets are present within that context.
 
@@ -29,7 +25,7 @@ runtime:
       value: "{{secret:team.TEST_TEAM_ENV}}"
     - name: TEST_USER_ENV
       value: "{{secret:user.TEST_USER_ENV}}"
-    - name: FOO 
+    - name: FOO
       value: "bar"
 ```
 

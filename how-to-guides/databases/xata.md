@@ -1,7 +1,6 @@
 ---
 title: Xata
 ---
-# Xata
 
 Comprehensive guide for connecting to Xata Workspace Database from your DevBox.
 
@@ -40,7 +39,6 @@ You will need to create a Recipe in DevZero equipped with the necessary tools li
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe `yaml` file with the snippet below. Remember to replace the placeholder API key with the key you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -54,7 +52,6 @@ runtime:
     - name: XATA_API_KEY
       value: <api-key>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -76,11 +73,9 @@ Follow the below steps to connect to the database instance:
 
 3. Copy the connection  string for **PostgreSQL endpoint** and then use the following command to connect to the Database:
 
-{% code %}
 ```
 psql postgresql://<workspace-id>:$XATA_API_KEY@<region>.sql.xata.sh/<database-name>:<branch>?sslmode=require
 ```
-{% endcode %}
 
 ![Xata Database Access](../../.gitbook/assets/xata-db-access.png)
 
@@ -114,7 +109,6 @@ You will need to create a **Recipe** in DevZero equipped with the necessary tool
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe `yaml` file with the snippet below. Remember to replace the placeholder API key with the Key you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -128,7 +122,6 @@ runtime:
     - name: XATA_API_KEY
       value: <api-key>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -150,11 +143,9 @@ Follow the below steps to connect to the database instance:
 
 3. Copy the connection  string for **PostgreSQL endpoint** and then use the following command to connect to the database:
 
-{% code %}
 ```
 psql postgresql://<workspace-id>:$XATA_API_KEY@<region>.sql.xata.sh/<database-name>:<branch>?sslmode=require
 ```
-{% endcode %}
 
 ![Xata Database Access](../../.gitbook/assets/xata-db-access.png)
 
@@ -181,7 +172,6 @@ You will need to create a **Recipe** in DevZero equiped with the neccesary tools
 3. Click on **Create a recipe** and your recipe will be created.
 4. Replace the recipe `yaml` file with the snippet below. Remember to replace the placeholder API key with the Key you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -203,7 +193,6 @@ runtime:
     - name: XATA_API_KEY
       value: <api-key>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -218,20 +207,16 @@ Follow the below steps to connect to the database instance:
 
 1. Go to DevBox and use the following command to authenticate your xata account:
 
-{% code %}
 ```
 xata auth login
 ```
-{% endcode %}
 
 2. Choose the `Use an existing API key` option while authenticating, and then hit **Enter/Return** with the API Key shown when prompted.
 3. Use the following command for access the database through Xata shell:
 
-{% code %}
 ```
 xata shell
 ```
-{% endcode %}
 
 4. Select the **Workspace**, **Database** and **Branch** when prompted.
 
@@ -267,7 +252,6 @@ You will need to create a **Recipe** in DevZero equipped with the necessary tool
 3. Click on **Create a recipe**, and your recipe will be created.
 4. Replace the recipe `yaml` file with the snippet below. Remember to replace the placeholder API key with the Key you noted down in the above steps:
 
-{% code %}
 ```
 version: "3"
 
@@ -289,7 +273,6 @@ runtime:
     - name: XATA_API_KEY
       value: <api-key>
 ```
-{% endcode %}
 
 ![DevZero Recipe](../../.gitbook/assets/devzero-recipe-yaml.png)
 
@@ -304,20 +287,16 @@ Follow the below steps to connect to the database instance:
 
 1. Go to DevBox and use the following command to authenticate your Xata account:
 
-{% code %}
 ```
 xata auth login
 ```
-{% endcode %}
 
 2. Choose the `Use an existing API key` option while authenticating and then hit **Enter/Return** without entering the API Key when prompted.
 3. Use the following command to access Databasebase through the Xata shell:
 
-{% code %}
 ```
 xata shell
 ```
-{% endcode %}
 
 4. Select the **Workspace**, **Database** and **Branch** when prompted.
 
@@ -328,4 +307,4 @@ xata shell
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4" %}
+[![Video Walkthrough](https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4)](https://devzero.b-cdn.net/Devbox%20Xata%20Database%20.mp4)

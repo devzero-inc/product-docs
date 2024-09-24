@@ -1,18 +1,15 @@
 ---
 title: Accessing the DevBox
 ---
-# Accessing the DevBox
 
 There are various ways to interact with your DevBox. The first step is to verify the name of the workspace that you want to interact with.
 
 If you prefer video from, [click here](access.md#tutorial-video) for a 7min video!
 
-{% code %}
 ```
 # to get the workspace name
 dz workspace list
 ```
-{% endcode %}
 
 You will see something like this...
 
@@ -30,4 +27,4 @@ To view running applications, visit `<workspacename>:<port>` in your browser (mo
 
 Here's a video covering all these concepts:
 
-{% embed url="https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4" %}
+[![Accessing a workspace](https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4)](https://devzero.b-cdn.net/Accessing%20a%20workspace.mp4)

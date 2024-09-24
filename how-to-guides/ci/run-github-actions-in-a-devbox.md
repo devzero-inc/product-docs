@@ -5,11 +5,8 @@ description: >-
 title: GitHub Actions
 ---
 
-# GitHub Actions
 
-{% hint style="info" %}
-Pre-built recipe templates are available [here](../../references/starter-templates/ci-cd/github-actions.md).
-{% endhint %}
+> Pre-built recipe templates are available [here](../../references/starter-templates/ci-cd/github-actions.md).
 
 ## Using a self-hosted runner
 
@@ -51,20 +48,17 @@ export TOKEN_FROM_GITHUB="" # insert token
 # for a specific repo
 # ./config.sh --url https://github.com/ORGANIZATION/REPO --token $TOKEN_FROM_GITHUB
 ```
-{% hint style="info" %}
-The token from GitHub wll expire in about an hour and is unique for your instance.
 
-You can also get the registration token non-interactively by sending a http request using curl:
-
-```
-curl \
-    -X POST \
-    -H "Accept: application/vnd.github+json" \
-    -H "Authorization: Bearer "${{ GITHUB_PAT }}"" \
-    https://api.github.com/repos/ORGANIZATION/REPO/actions/runners/registration-token
-```
-
-{% endhint %}
+> The token from GitHub wll expire in about an hour and is unique for your instance.
+> You can also get the registration token non-interactively by sending a http request using curl:
+>
+> ```
+> curl \
+>     -X POST \
+>     -H "Accept: application/vnd.github+json" \
+>     -H "Authorization: Bearer "${{ GITHUB_PAT }}"" \
+>     https://api.github.com/repos/ORGANIZATION/REPO/actions/runners/registration-token
+> ```
 
 ### Install and Start
 
@@ -75,9 +69,7 @@ sudo ./svc.sh install root && sudo ./svc.sh start
 
 7. Verify that the runner was added to your repo/org and is either in "Idle" or "Online" state.
 
-{% hint style="info" %}
-Tip: The runner name should be same as the DevBox hostname.
-{% endhint %}
+> Tip: The runner name should be same as the DevBox hostname.
 
 8. Run a GitHub Action on the self-hosted runner to verify that it passes successfully, set `runs-on: self-hosted`:
 
@@ -96,13 +88,11 @@ jobs:
 
 Here's a five minute video to see the process from end to end.
 
-{% embed url="https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4" %}
+[![Setting up Self-Hosted GitHub Actions on DevZero](https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4)](https://devzero.b-cdn.net/Setting%20up%20Self-Hosted%20GitHub%20Actions%20on%20DevZero%20%F0%9F%9B%A0%EF%B8%8F.mp4)
 
 ## Using Actions Runner Controller
 
-{% hint style="warning" %}
-The Actions Runner Controller setup is still in beta and some actions, like running Docker in tests, aren't yet supported.
-{% endhint %}
+> The Actions Runner Controller setup is still in beta and some actions, like running Docker in tests, aren't yet supported.
 
 You will need a Personal Access Token (PAT).
 
@@ -120,9 +110,7 @@ After you obtained the PAT:
 
 ### Scale-set controller
 
-{% hint style="info" %}
-Adjust the `NAMESPACE`variable as needed.
-{% endhint %}
+> Adjust the `NAMESPACE`variable as needed.
 
 <pre><code>NAMESPACE=dz-arc-systems
 helm install arc \
@@ -133,9 +121,7 @@ helm install arc \
 
 ### Runner scale-set
 
-{% hint style="info" %}
-Adjust the `INSTALLATION_NAME`, `NAMESPACE`, `GITHUB_CONFIG_URL`, and `GITHUB_PAT` variables as needed.
-{% endhint %}
+> Adjust the `INSTALLATION_NAME`, `NAMESPACE`, `GITHUB_CONFIG_URL`, and `GITHUB_PAT` variables as needed.
 
 ```
 helm install "${INSTALLATION_NAME}" \

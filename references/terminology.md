@@ -1,7 +1,6 @@
 ---
 title: Terminology
 ---
-# Terminology
 
 ## DevZero Terminology
 

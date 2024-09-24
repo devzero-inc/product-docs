@@ -1,7 +1,6 @@
 ---
 title: Azure Blob Storage
 ---
-# Azure Blob Storage
 
 Connecting to an Azure Blob Storage from your DevBox.
 
@@ -27,19 +26,15 @@ Now follow the below steps to access the Blob Storage on your DevBox:
 
 1. Go to DevBox and install the Azure CLI tool using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. Login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. After you have completed your authentication, go to **Home > Storage Accounts** and select your storage account.
 4. Then go to the **Security + Networking > Access Keys** section and note down either of the two access keys presented to you.
@@ -50,7 +45,6 @@ az login
 
 To Upload a file as Blob to the container, use the following command:
 
-{% code %}
 ```
 az storage blob upload \
     --account-name <storage-account> \
@@ -59,7 +53,6 @@ az storage blob upload \
     --name myFile.txt \
     --file myFile.txt \
 ```
-{% endcode %}
 
 ![Azure Blob Storage Upload](../../../.gitbook/assets/azure-blob-upload.png)
 
@@ -69,7 +62,6 @@ az storage blob upload \
 
 To Download a Blob from the container, use the following command:
 
-{% code %}
 ```
 az storage blob download \
     --account-name <storage-account> \
@@ -78,7 +70,6 @@ az storage blob download \
     --name myFile.txt \
     --file myFile.txt \
 ```
-{% endcode %}
 
 ![Azure Blob Storage Download 1](../../../.gitbook/assets/azure-blob-download-1.png)
 ![Azure Blob Storage Download 2](../../../.gitbook/assets/azure-blob-download-2.png)
@@ -89,7 +80,6 @@ az storage blob download \
 
 To list all the blobs in the container, use the following command:
 
-{% code %}
 ```
 az storage blob list \
     --account-name <storage-account> \
@@ -97,7 +87,6 @@ az storage blob list \
     --container-name <container> \
     --output table
 ```
-{% endcode %}
 
 ![Azure Blob Storage List](../../../.gitbook/assets/azure-blob-list.png)
 
@@ -125,19 +114,15 @@ After creating the container, you must install and authenticate your Azure CLI t
 
 1. Go to DevBox and install the Azure CLI tool using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. Login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. You may use the following command to Upload, Download, or list the Blob in the container:
 
@@ -146,7 +131,6 @@ az login
 
 To Upload a file as Blob to the container, use the following command:
 
-{% code %}
 ```
 az storage blob upload \
     --account-name <storage-account> \
@@ -155,7 +139,6 @@ az storage blob upload \
     --name myFile.txt \
     --file myFile.txt \
 ```
-{% endcode %}
 
 ![Azure Blob Storage Upload](../../../.gitbook/assets/azure-blob-upload.png)
 
@@ -165,7 +148,6 @@ az storage blob upload \
 
 To Download a file from the container, use the following command:
 
-{% code %}
 ```
 az storage blob download \
     --account-name <storage-account> \
@@ -174,7 +156,6 @@ az storage blob download \
     --name myFile.txt \
     --file myFile.txt \
 ```
-{% endcode %}
 
 ![Azure Blob Storage Download 1](../../../.gitbook/assets/azure-blob-download-1.png)
 ![Azure Blob Storage Download 2](../../../.gitbook/assets/azure-blob-download-2.png)
@@ -185,7 +166,6 @@ az storage blob download \
 
 To list all the blobs in the container, use the following command:
 
-{% code %}
 ```
 az storage blob list \
     --account-name <storage-account> \
@@ -193,7 +173,6 @@ az storage blob list \
     --container-name <container> \
     --output table
 ```
-{% endcode %}
 
 ![Azure Blob Storage List](../../../.gitbook/assets/azure-blob-list.png)
 

@@ -1,7 +1,6 @@
 ---
 title: GCP Firestore (Datastore Mode)
 ---
-# GCP Firestore (Datastore Mode)
 
 Connecting to an Firestore instance to your DevBox.
 
@@ -21,34 +20,27 @@ Connecting to an Firestore instance to your DevBox.
 2. Store the **Google Authentication Credentials** on the workspace.
 3. Install **Python** and **PIP**:
 
-{% code lineNumbers="false" %}
 ```
 sudo apt update
 sudo apt install python3 python3-dev python3-venv
 sudo apt-get install wget
 wget https://bootstrap.pypa.io/get-pip.py
 ```
-{% endcode %}
 
 4. Install **Firestore Admin API**:
 
-{% code lineNumbers="false" %}
 ```
 pip install --upgrade google-cloud-datastore
 ```
-{% endcode %}
 
 5. Set the **GOOGLE_APPLICATION_CREDENTIALS** environment variable.
 
-{% code lineNumbers="false" %}
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/the/key.json
 ```
-{% endcode %}
 
 6. Write a Python scipt to test the Firestore Admin API Connection:
 
-{% code lineNumbers="false" %}
 ```python
 from google.cloud import datastore
 
@@ -59,15 +51,12 @@ if datastore_client:
 else:
     pass
 ```
-{% endcode %}
 
 7. Run the Python Script:
 
-{% code lineNumbers="false" %}
 ```
 python3 <file-name>.py
 ```
-{% endcode %}
 
 If the connection is successful, you should see **"Connected"** printed in the terminal output.
 
@@ -90,34 +79,27 @@ If the connection is successful, you should see **"Connected"** printed in the t
 2. Store the **Google Authentication Credentials** on the workspace.
 3. Install **Python** and **PIP**:
 
-{% code lineNumbers="false" %}
 ```
 sudo apt update
 sudo apt install python3 python3-dev python3-venv
 sudo apt-get install wget
 wget https://bootstrap.pypa.io/get-pip.py
 ```
-{% endcode %}
 
 4. Install **Firestore Admin API**:
 
-{% code lineNumbers="false" %}
 ```
 pip install --upgrade google-cloud-datastore
 ```
-{% endcode %}
 
 5. Set the **GOOGLE_APPLICATION_CREDENTIALS** environment variable.
 
-{% code lineNumbers="false" %}
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/the/key.json
 ```
-{% endcode %}
 
 6. Write a Python scipt to test the Firestore Admin API Connection:
 
-{% code lineNumbers="false" %}
 ```python
 from google.cloud import datastore
 
@@ -128,15 +110,12 @@ if datastore_client:
 else:
     pass
 ```
-{% endcode %}
 
 7. Run the Python Script:
 
-{% code lineNumbers="false" %}
 ```
 python3 <file-name>.py
 ```
-{% endcode %}
 
 If the connection is successful, you should see **"Connected"** printed in the terminal output.
 

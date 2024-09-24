@@ -1,11 +1,8 @@
 ---
 title: Developer Experience Infrastructure (DXI
 ---
-# Developer Experience Infrastructure (DXI
 
-{% hint style="info" %}
-**Coming soon...**
-{% endhint %}
+> **Coming soon...**
 
 * Reduce build and compile times
 * Ensure consistency of development environments

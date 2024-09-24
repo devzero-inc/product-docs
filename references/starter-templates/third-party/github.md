@@ -1,9 +1,7 @@
 ---
 title: GitHub CLI
 ---
-# GitHub CLI
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -20,4 +18,3 @@ build:
         sudo apt install gh -y
       user: devzero
 ```
-{% endcode %}

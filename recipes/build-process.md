@@ -1,7 +1,6 @@
 ---
 title: Build Process
 ---
-# Build Process
 
 ## User Experience
 

@@ -1,7 +1,6 @@
 ---
 title: Databases
 ---
-# Databases
 
 <table data-view="cards">
     <thead>

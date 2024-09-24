@@ -1,9 +1,7 @@
 ---
 title: Argo CD
 ---
-# Argo CD
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -18,4 +16,3 @@ build:
         mv ./argo-linux-amd64 /usr/local/bin/argo
       user: devzero
 ```
-{% endcode %}

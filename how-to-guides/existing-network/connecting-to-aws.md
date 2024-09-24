@@ -3,7 +3,6 @@ description: Learn how to connect to AWS resources privately from a DevBox.
 title: Connecting to AWS
 ---
 
-# Connecting to AWS
 
 If you're more of a visual learner, check out the [video tutorial](#video-walkthrough)!
 
@@ -62,4 +61,4 @@ ping <ip_address>
 
 ## Video Walkthrough
 
-{% embed url="https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4" %}
+[Video Walkthrough: How to Guide AWS VPC](https://devzero.b-cdn.net/how%20to%20guide%20AWS%20VPC.mp4)

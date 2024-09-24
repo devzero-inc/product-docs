@@ -1,7 +1,6 @@
 ---
 title: Workspace Cluster
 ---
-# Workspace Cluster
 
 User workspaces are deploying with an [ephemeral, namespaced Kubernetes cluster](../references/terminology.md#workspace-cluster). If you need to interact with this cluster...
 
@@ -40,9 +39,7 @@ In a fresh new workspace, you can immediately run:
 kubectl get pods
 ```
 
-{% hint style="warning" %}
-DevZero reserves the `default` namespace for it's managed deployments. **Do not** operate on this namespace. Adding or removing resources in this namespace will lead to undocumented behaviors and cause potential data loss.
-{% endhint %}
+> DevZero reserves the `default` namespace for it's managed deployments. **Do not** operate on this namespace. Adding or removing resources in this namespace will lead to undocumented behaviors and cause potential data loss.
 
 ```
 dz workspace kubeconfig -h
@@ -67,7 +64,7 @@ Global Flags:
 
 Here's a video covering how you can access and deploy apps to your workspace's Kubernetes cluster...
 
-{% embed url="https://devzero.b-cdn.net/Kubernetes%20demo.mp4" %}
+[![Kubernetes Demo](https://devzero.b-cdn.net/Kubernetes%20demo.mp4)](https://devzero.b-cdn.net/Kubernetes%20demo.mp4)
 
 <details>
 
@@ -79,7 +76,6 @@ Here's a video covering how you can access and deploy apps to your workspace's K
 
 2. Use the following recipe, then `Save and Build` and then `Publish` once the build completes successfully (it uses Google Cloud Platform's [`microservices-demo`](https://github.com/GoogleCloudPlatform/microservices-demo) repo).
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -110,7 +106,6 @@ build:
         systemctl enable containerd.service
       user: root
 ```
-{% endcode %}
 
 3. Build a workspace from the recipe, and run the following in your terminal:
 

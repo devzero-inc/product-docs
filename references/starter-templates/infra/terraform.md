@@ -1,9 +1,7 @@
 ---
 title: Terraform
 ---
-# Terraform
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -15,4 +13,3 @@ build:
         repository: https://apt.releases.hashicorp.com
         components: ["main"]
 ```
-{% endcode %}

@@ -1,11 +1,9 @@
 ---
 title: Browser IDE (using code-server)
 ---
-# Browser IDE (using code-server)
 
 There's a [walkthrough video](#walkthrough-video) at the bottom of this page if you want to see how everything looks!
 
-{% code lineNumbers="true" %}
 ```
 version: "3"
 
@@ -62,8 +60,7 @@ build:
         systemctl enable code-server  # Enable code-server to start on system boot
       user: root  # Execute the command as the root user
 ```
-{% endcode %}
 
 ## Walkthrough Video
 
-{% embed url="https://devzero.b-cdn.net/browser-ide.mp4" %}
+[![Walkthrough Video](https://devzero.b-cdn.net/browser-ide.mp4)](https://devzero.b-cdn.net/browser-ide.mp4)

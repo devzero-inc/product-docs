@@ -1,7 +1,6 @@
 ---
 title: Docker
 ---
-# Docker
 
 ## Remote build/cache using `DOCKER_HOST`
 
@@ -26,9 +25,7 @@ docker info
 
 When you run the `docker build` command, the build context will be sent to the DevBox and the build process will run.
 
-{% hint style="info" %}
-If you're seeing "Host key verification failed" error, try connecting to your DevBox via ssh first to verify the fingerprint.
-{% endhint %}
+> If you're seeing "Host key verification failed" error, try connecting to your DevBox via ssh first to verify the fingerprint.
 
 ## Remote build using BuildKit
 
@@ -98,10 +95,7 @@ docker buildx build --push -t your-devbox-hostname:5000/<image> \
 curl http://your-devbox-hostname:5000/v2/_catalog
 ```
 
-{% hint style="info" %}
-If you're getting "http: server gave HTTP response to HTTPS client", try adding the following to your Docker daemon json configuration:
-
-```
-insecure-registries": ["your-devbox-hostname:5000"]
-```
-{% endhint %}
+> If you're getting "http: server gave HTTP response to HTTPS client", try adding the following to your Docker daemon json configuration:
+> ```
+> "insecure-registries": ["your-devbox-hostname:5000"]
+> ```

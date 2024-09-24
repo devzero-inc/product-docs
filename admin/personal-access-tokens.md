@@ -1,7 +1,6 @@
 ---
 title: Personal Access Tokens
 ---
-# Personal Access Tokens
 
 ## Managing Personal Access Tokens
 
@@ -17,8 +16,6 @@ Deleting a token is performed in the same section.
 
 A personal access token can be used to authenticate the `dz` cli. Simply log in by passing the token contents via the `--token` flag. Upon token expiry, the cli will prompt to re-authenticate.
 
-{% code lineNumbers="false" %}
 ```
 dz auth login --token <token contents>
 ```
-{% endcode %}
