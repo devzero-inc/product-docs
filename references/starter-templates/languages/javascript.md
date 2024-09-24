@@ -1,7 +1,6 @@
 ---
 title: 'JavaScript (incl. Yarn, NVM'
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -17,4 +16,3 @@ build:
         echo '. $HOME/.nvm/nvm.sh' >> $HOME/.zshrc
         npm install --global yarn
 ```
-{% endcode %}

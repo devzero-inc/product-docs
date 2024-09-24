@@ -50,7 +50,6 @@ While recipe builds are cached, updating a lower layer (eg: the first step in yo
 
 Here's an example of some build-time steps:
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -88,7 +87,6 @@ build:
       directory: /home/devzero
       user: root
 ```
-{% endcode %}
 
 For more examples, see check the build commands in our [starter-templates](../references/starter-templates/ "mention").
 
@@ -121,7 +119,6 @@ Other than that, the same rules from the [Build-time](exec-stages.md#build-time)
 
 Here's an example of some launch-time steps:
 
-{% code lineNumbers="true" %}
 ```yaml
 launch:
   steps:
@@ -139,7 +136,6 @@ launch:
       directory: /home/devzero
       user: root
 ```
-{% endcode %}
 
 <figure><img src="../.gitbook/assets/runtime-in-recipe.png" alt=""><figcaption><p>Code block in a recipe</p></figcaption></figure>
 

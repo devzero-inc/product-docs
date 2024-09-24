@@ -22,7 +22,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 build:
@@ -35,7 +34,6 @@ build:
         unzip awscliv2.zip
         sudo ./aws/install
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -55,11 +53,9 @@ Now, this is where the real task begins. After downloading the `aws' cli package
 3. Click `create access key` and note down the **Secret Access Key** as this will only be shown once.
 4. Go to your DevBox and use the following command to configure the `aws` cli:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 aws configure
 ```
-{% endcode %}
 
 5. Enter the **Access Key** and **Secret Access Key** when prompted.
 6. Enter your default **Region** of choice, and your `aws` cli setup will be completed.
@@ -68,10 +64,8 @@ aws configure
 
 Now, with the above steps, your AWS DynamoDB connections are completed, and you can check that with the following command:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 aws dynamodb list-tables
 ```
-{% endcode %}
 
 ![GCP DynamoDB Creation and Access](../../../.gitbook/assets/aws-dynamodb-creation.png)

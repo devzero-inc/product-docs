@@ -1,7 +1,6 @@
 ---
 title: Docker and Docker Compose
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -24,4 +23,3 @@ build:
       directory: /home/devzero
       user: root
 ```
-{% endcode %}

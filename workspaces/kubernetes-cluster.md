@@ -77,7 +77,6 @@ Here's a video covering how you can access and deploy apps to your workspace's K
 
 2. Use the following recipe, then `Save and Build` and then `Publish` once the build completes successfully (it uses Google Cloud Platform's [`microservices-demo`](https://github.com/GoogleCloudPlatform/microservices-demo) repo).
 
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -108,7 +107,6 @@ build:
         systemctl enable containerd.service
       user: root
 ```
-{% endcode %}
 
 3. Build a workspace from the recipe, and run the following in your terminal:
 

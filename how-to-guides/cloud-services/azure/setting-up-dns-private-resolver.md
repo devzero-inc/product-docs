@@ -39,31 +39,25 @@ After you are done with creating the DNS Private Resolver, you need to add the D
 2. Then navigate to **Settings > Inbound Endpoints** and note down the IP Address of the inbound endpoint which you created.
 3. Go to **DevBox** and enter the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo nano /etc/resolv.conf
 ```
-{% endcode %}
 
 we need to add the IP address to this configuration file so that the DevZero Network can use the Conditional Forwarder.
 
 4. Enter the following line to the `resolv.conf` file:
 
-{% code lineNumbers="false" %}
 ```
 nameserver <ip-address>
 ```
-{% endcode %}
 
 save the file and you will now be able to access the domains within the Azure DNS Private Zones.
 
 For Example, we have a DNS Private Zone named `privatelink.postgres.database.azure.com` and it houses a private domain endpoint named `test-db-devzero.postgres.database.azure.com`. You can verify the setup by using `nslookup`:
 
-{% code lineNumbers="false" %}
 ```
 nslookup <private-domain-endpoint>
 ```
-{% endcode %}
 
 If everything goes well then you should see a output similar to this.
 

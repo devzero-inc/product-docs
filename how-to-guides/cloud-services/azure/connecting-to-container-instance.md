@@ -36,19 +36,15 @@ Follow the Below steps to access your container application from your DevBox :
 
 1. Connect to the workspace using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo dz workspace connect <workspace-name>
 ```
-{% endcode %}
 
 2. You can access the application running in the container using the `curl` command:
 
-{% code lineNumbers="false" %}
 ```
 curl -X GET <private-ip>
 ```
-{% endcode %}
 
 ![Azure Container Access](../../../.gitbook/assets/azure-container-access.png)
 
@@ -83,18 +79,14 @@ Follow the Below steps to access your container application from your DevBox :
 
 1. Connect to the workspace using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo dz workspace connect <workspace-name>
 ```
-{% endcode %}
 
 2. You can access the application running in the container using the `curl` command:
 
-{% code lineNumbers="false" %}
 ```
 curl -X GET <private-ip>
 ```
-{% endcode %}
 
 ![Azure Container Access](../../../.gitbook/assets/azure-container-access.png)

@@ -1,7 +1,6 @@
 ---
 title: K9s
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -17,4 +16,3 @@ build:
         sudo mv k9s_Linux_amd64/k9s /usr/local/bin/
         rm -rf k9s_Linux_amd64*
 ```
-{% endcode %}

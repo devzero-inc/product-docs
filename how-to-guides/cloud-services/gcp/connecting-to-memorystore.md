@@ -22,11 +22,9 @@ Connecting to Memorystore running in the private subnet of GCP VPC from your Dev
 
 3. Go to your **DevBox** and connect to Service:
 
-{% code lineNumbers="false" %}
 ```
 telnet <domain-endpoint> 6379
 ```
-{% endcode %}
 
 ![image](../../../.gitbook/assets/gcp-memorystore-access.png)
 
@@ -53,10 +51,8 @@ telnet <domain-endpoint> 6379
 
 3. Go to your **DevBox** and connect to Service:
 
-{% code lineNumbers="false" %}
 ```
 telnet <domain-endpoint> 6379
 ```
-{% endcode %}
 
 ![image](../../../.gitbook/assets/gcp-memorystore-access.png)

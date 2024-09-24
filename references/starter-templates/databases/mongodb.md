@@ -1,7 +1,6 @@
 ---
 title: MongoDB
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -32,4 +31,3 @@ build:
         sudo cp mongodb-database-tools-ubuntu2204-x86_64-$VERSION/bin/* /usr/local/bin/
         rm -rf mongodb-database-tools-ubuntu2204-x86_64-$VERSION*
 ```
-{% endcode %}

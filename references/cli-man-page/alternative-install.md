@@ -44,38 +44,30 @@ If you're feeling adventurous, these links are for the `latest` release track, w
 
 ## 2. Unpack the tarball
 
-{% code %}
 ```
 tar xvf dz.tar.gz
 ```
-{% endcode %}
 
 This should produce one file, called `dzcmd`.
 
 ## 3. Create symlinks
 
-{% code %}
 ```
 ln -s dzcmd dz
 ln -s dzcmd dznetd
 ```
-{% endcode %}
 
 ## 4. Start dznetd
 
-{% code %}
 ```
 sudo ./dznetd
 ```
-{% endcode %}
 
 ## 5. Connect to your team's network
 
-{% code %}
 ```
 sudo ./dz net connect
 ```
-{% endcode %}
 
 ## 6. Success
 

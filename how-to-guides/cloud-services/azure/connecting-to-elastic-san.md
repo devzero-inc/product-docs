@@ -27,7 +27,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -36,7 +35,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "python3", "libpython3-dev"]
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -81,20 +79,16 @@ Now you need to follow the below steps to connect to DevBox:
 1. Connect to the workspace from your terminal.
 2. Create a Python script by using the following command:
 
-{% code %}
 ```
 sudo nano <file-name>.py
 ```
-{% endcode %}
 
 3. Paste in the connection script we got from the volume.
 4. Run the Python file with elevated access to make the connection:
 
-{% code %}
 ```
 sudo python3 <file-name>.py
 ```
-{% endcode %}
 
 ![Azure Elastic SAN access](../../../.gitbook/assets/azure-elastic-san-access.png)
 
@@ -129,7 +123,6 @@ You can also choose the **Enabled** option and connect to a VNET if you have a V
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -138,7 +131,6 @@ build:
     - type: apt-get
       packages: ["build-essential", "curl", "git", "nano", "software-properties-common", "ssh", "sudo", "tar", "unzip", "vim", "wget", "zip", "python3", "libpython3-dev"]
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -183,19 +175,15 @@ Now, you need to follow the below steps to connect to DevBox:
 1. Connect to the workspace from your terminal.
 2. Create a Python script by using the following command:
 
-{% code %}
 ```
 sudo nano <file-name>.py
 ```
-{% endcode %}
 
 3. paste in the connection script we got from the volume.
 4. Run the Python file with elevated access to make the connection:
 
-{% code %}
 ```
 sudo python3 <file-name>.py
 ```
-{% endcode %}
 
 ![Azure Elastic SAN access](../../../.gitbook/assets/azure-elastic-san-access.png)

@@ -25,19 +25,15 @@ Now follow the below steps to access the Table Storage on your DevBox:
 
 1. Go to DevBox and install the Azure CLI tool using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. Login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. After you have completed your authentication, go to **Home > Storage Accounts** and select your storage account.
 4. Then go to the **Security + Networking > Access Keys** section and note down either of the two access keys presented to you.
@@ -48,14 +44,12 @@ az login
 
 To check the **Existence** of the table, use the following command:
 
-{% code %}
 ```
 az storage table exists \
     --account-name <storage-account> \
     --account-key <access-key> \
     --name <table-name>
 ```
-{% endcode %}
 
 ![Azure Table Storage Exists](../../../.gitbook/assets/azure-table-exists.png)
 
@@ -65,13 +59,11 @@ az storage table exists \
 
 To **List** all the available tables, use the following command:
 
-{% code %}
 ```
 az storage table list \
     --account-name <storage-account> \
     --account-key <access-key>
 ```
-{% endcode %}
 
 ![Azure Table Storage List](../../../.gitbook/assets/azure-table-list.png)
 
@@ -99,19 +91,15 @@ After creating the table, you must install and authenticate your Azure CLI to ea
 
 1. Go to DevBox and install the Azure CLI tool using the following command:
 
-{% code lineNumbers="false" %}
 ```
 sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 2. Login into your Azure account using the `login` command:
 
-{% code lineNumbers="false" %}
 ```
 az login
 ```
-{% endcode %}
 
 3. You may use the following command to Check existence and List the available tables:
 
@@ -120,14 +108,12 @@ az login
 
 To check the **Existence** of the table, use the following command:
 
-{% code %}
 ```
 az storage table exists \
     --account-name <storage-account> \
     --account-key <access-key> \
     --name <table-name>
 ```
-{% endcode %}
 
 ![Azure Table Storage Exists](../../../.gitbook/assets/azure-table-exists.png)
 
@@ -137,13 +123,11 @@ az storage table exists \
 
 To **List** all the available tables, use the following command:
 
-{% code %}
 ```
 az storage table list \
     --account-name <storage-account> \
     --account-key <access-key>
 ```
-{% endcode %}
 
 ![Azure Table Storage List](../../../.gitbook/assets/azure-table-list.png)
 

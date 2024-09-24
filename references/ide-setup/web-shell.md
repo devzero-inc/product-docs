@@ -3,7 +3,6 @@ title: Web Shell (using GoTTY)
 ---
 There's a [walkthrough video](#walkthrough-video) at the bottom of this page if you want to see how everything looks!
 
-{% code lineNumbers="true" %}
 ```
 version: "3"
 build:
@@ -42,7 +41,6 @@ build:
         systemctl enable gotty.service
       user: root
 ```
-{% endcode %}
 
 ## Walkthrough Video
 

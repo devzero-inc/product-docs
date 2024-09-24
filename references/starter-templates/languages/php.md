@@ -1,7 +1,6 @@
 ---
 title: PHP
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -18,4 +17,3 @@ build:
       directory: /home/devzero
       user: devzero
 ```
-{% endcode %}

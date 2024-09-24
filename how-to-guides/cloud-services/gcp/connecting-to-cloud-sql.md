@@ -26,11 +26,9 @@ Connecting to an Cloud SQL running in the private subnet of GCP VPC to your DevB
 
 4. SSH into your **Bastion Host** and enter the following command:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 sudo dz net connect --ssh --advertise-routes=<Destionation-IP-Range>
 ```
-{% endcode %}
 
 5. Go to **DevBox**.
 6. Connecting to the Database.
@@ -47,11 +45,9 @@ sudo apt install mysql-client
 
 To access the database:
 
-{% code %}
 ```
 mysql -h <Endpoint> -u <Username> --database <Database Name> -p
 ```
-{% endcode %}
 {% endtab %}
 
 {% tab title="PostgreSQL" %}
@@ -63,11 +59,9 @@ sudo apt install postgresql-client
 
 To access the database:
 
-{% code %}
 ```
 psql -h <Endpoint> --username <Username> -d <Database Name> --password
 ```
-{% endcode %}
 {% endtab %}
 {% endtabs %}
 
@@ -99,11 +93,9 @@ psql -h <Endpoint> --username <Username> -d <Database Name> --password
 
 4. SSH into your **Bastion Host** and enter the following command:
 
-{% code overflow="wrap" lineNumbers="false" %}
 ```
 sudo dz net connect --ssh --advertise-routes=<Destionation-IP-Range>
 ```
-{% endcode %}
 
 5. Go to **DevBox**.
 6. Connecting to the Database.
@@ -120,11 +112,9 @@ sudo apt install mysql-client
 
 To access the database:
 
-{% code %}
 ```
 mysql -h <Endpoint> -u <Username> --database <Database Name> -p
 ```
-{% endcode %}
 {% endtab %}
 
 {% tab title="PostgreSQL" %}
@@ -136,11 +126,9 @@ sudo apt install postgresql-client
 
 To access the database:
 
-{% code %}
 ```
 psql -h <Endpoint> --username <Username> -d <Database Name> --password
 ```
-{% endcode %}
 {% endtab %}
 {% endtabs %}
 

@@ -1,7 +1,6 @@
 ---
 title: Postgres
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -35,4 +34,3 @@ launch:
         sudo -u postgres createdb devzero -O devzero
       user: root
 ```
-{% endcode %}

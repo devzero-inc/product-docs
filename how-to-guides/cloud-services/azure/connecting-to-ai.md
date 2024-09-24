@@ -29,7 +29,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -41,7 +40,6 @@ build:
       command: |
         sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -83,11 +81,9 @@ Now follow the below steps to access the AI Services on your DevBox:
 
 5. Copy the API Key and export it to your environmental variables using the following command:
 
-{% code lineNumbers="false" %}
 ```
 export TOKEN=<api-key>
 ```
-{% endcode %}
 
 6. Below that, you will find code snippets for several languages and frameworks. For this guide, we will demonstrate the secure connection with `curl`.
 7. Copy the code snippet and place it in your **TOKEN** environmental variable.
@@ -126,7 +122,6 @@ First, we need to create a recipe for the workspace:
 2. Enter the recipe name and click on **Create a recipe**.
 3. Now use the below-provided snippet to create a recipe for your workspace:
 
-{% code lineNumbers="false" %}
 ```
 version: "3"
 
@@ -138,7 +133,6 @@ build:
       command: |
         sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
-{% endcode %}
 
 4. Click on **Save and Build** and when the build is successful, click on **Publish**.
 
@@ -166,11 +160,9 @@ Now follow the below steps to access the AI Services on your DevBox:
 
 5. Copy the API Key and export it to your environmental variables using the following command:
 
-{% code lineNumbers="false" %}
 ```
 export TOKEN=<api-key>
 ```
-{% endcode %}
 
 6. Below, you will find code snippets for several languages and frameworks. This guide will demonstrate the secure connection with `curl`.
 7. Copy the code snippet and place it in your **TOKEN** environmental variable.

@@ -55,46 +55,36 @@ Follow the below steps to do so:
 
 1. Install `gnupg` and `curl` if they are not already:
 
-{% code %}
 ```
 sudo apt-get install gnupg curl
 ```
-{% endcode %}
 
 2. Get the **MongoDB public GPG key**:
 
-{% code %}
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
    --dearmor
 ```
-{% endcode %}
 
 3. Create a list file for MongoDB:
 
-{% code %}
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 sudo apt-get update
 ```
-{% endcode %}
 
 4. Install the MongoDB Package:
 
-{% code %}
 ```
 sudo apt-get install -y mongodb-org
 ```
-{% endcode %}
 
 5. verify if `mongosh` is installed or not:
 
-{% code %}
 ```
 mongosh
 ```
-{% endcode %}
 
 ### Step 3: Connecting to the Cluster
 
@@ -105,11 +95,9 @@ To connect to the MongoDB cluster, follow the below steps:
 3. Click on **Connect** and choose the private endpoint option.
 4. Then Click on **Shell**, copy the connection string, and paste it into your DevBox:
 
-{% code %}
 ```
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/" --apiVersion 1 --username <db_username>
 ```
-{% endcode %}
 
 5. Enter the password when prompted, and you will see the MongoDB cluster is connected.
 
@@ -139,45 +127,35 @@ Follow the below steps to do so:
 
 1. Install `gnupg` and `curl` if they are not already:
 
-{% code %}
 ```
 sudo apt-get install gnupg curl
 ```
-{% endcode %}
 
 2. Get the **MongoDB public GPG key**:
 
-{% code %}
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
    --dearmor
 ```
-{% endcode %}
 
 3. Create a list file for MongoDB:
 
-{% code %}
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
-{% endcode %}
 
 4. Install the MongoDB Package:
 
-{% code %}
 ```
 sudo apt-get install -y mongodb-org
 ```
-{% endcode %}
 
 5. verify if `mongosh` is installed or not:
 
-{% code %}
 ```
 mongosh
 ```
-{% endcode %}
 
 ### Step 3: Creating a X.509 Certificate (OPTIONAL)
 
@@ -206,21 +184,17 @@ To connect to the MongoDB cluster, follow the below steps:
 {% tab title="Password" %}
 4. Choose the **Password (SCRAM)** option and copy the connection string and paste it into your DevBox CLI:
 
-{% code %}
 ```
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/" --apiVersion 1 --username <db_username>
 ```
-{% endcode %}
 {% endtab %}
 
 {% tab title="X.509" %}
 4. Choose the **X.509** Certificate option and copy the connection string and paste it into your DevBox CLI:
 
-{% code %}
 ```
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509" --apiVersion 1 --tls --tlsCertificateKeyFile /path/to/certificate.pem
 ```
-{% endcode %}
 {% endtab %}
 {% endtabs %}
 
@@ -271,45 +245,35 @@ Follow the below steps to do so:
 
 1. Install `gnupg` and `curl` if they are not already:
 
-{% code %}
 ```
 sudo apt-get install gnupg curl
 ```
-{% endcode %}
 
 2. Get the **MongoDB public GPG key**:
 
-{% code %}
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
    --dearmor
 ```
-{% endcode %}
 
 3. Create a list file for MongoDB:
 
-{% code %}
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
-{% endcode %}
 
 4. Install the MongoDB Package:
 
-{% code %}
 ```
 sudo apt-get install -y mongodb-org
 ```
-{% endcode %}
 
 5. verify if `mongosh` is installed or not:
 
-{% code %}
 ```bash
 mongosh
 ```
-{% endcode %}
 
 ### Step 3: Connecting with the Cluster
 
@@ -320,11 +284,9 @@ To connect to the MongoDB cluster, follow the below steps:
 3. Click on **Connect** and choose the private endpoint option.
 4. Then Click on **Shell**, copy the connection string, and paste it into your DevBox CLI:
 
-{% code %}
 ```bash
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/" --apiVersion 1 --username <db_username>
 ```
-{% endcode %}
 
 5. Enter the password when prompted, and you will see the mongosh shell if the connection is authenticated.
 
@@ -354,45 +316,35 @@ Follow the below steps to do so:
 
 1. Install `gnupg` and `curl` if they are not already:
 
-{% code %}
 ```
 sudo apt-get install gnupg curl
 ```
-{% endcode %}
 
 2. Get the **MongoDB public GPG key**:
 
-{% code %}
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
    --dearmor
 ```
-{% endcode %}
 
 3. Create a list file for MongoDB:
 
-{% code %}
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
-{% endcode %}
 
 4. Install the MongoDB Package:
 
-{% code %}
 ```
 sudo apt-get install -y mongodb-org
 ```
-{% endcode %}
 
 5. verify if `mongosh` is installed or not:
 
-{% code %}
 ```
 mongosh
 ```
-{% endcode %}
 
 ### Step 3: Creating an X.509 Certificate (OPTIONAL)
 
@@ -421,21 +373,17 @@ To connect to the MongoDB cluster, follow the below steps:
 {% tab title="Password" %}
 4. Choose the **Password (SCRAM)** option and copy the connection string and paste it into your DevBox CLI:
 
-{% code %}
 ```
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/" --apiVersion 1 --username <db_username>
 ```
-{% endcode %}
 {% endtab %}
 
 {% tab title="X.509" %}
 4. Choose the **X.509** Certificate option and copy the connection string and paste it into your DevBox CLI:
 
-{% code %}
 ```
 mongosh "mongodb+srv://<cluster-name>.<cluster-id>.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509" --apiVersion 1 --tls --tlsCertificateKeyFile /path/to/certificate.pem
 ```
-{% endcode %}
 {% endtab %}
 {% endtabs %}
 

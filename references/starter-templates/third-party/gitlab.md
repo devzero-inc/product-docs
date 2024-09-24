@@ -1,7 +1,6 @@
 ---
 title: GitLab - glab CLI
 ---
-{% code lineNumbers="true" %}
 ```yaml
 version: "3"
 build:
@@ -14,4 +13,3 @@ build:
         sudo dpkg -i glab_1.41.0_Linux_x86_64.deb
       user: devzero
 ```
-{% endcode %}

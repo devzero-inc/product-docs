@@ -32,34 +32,27 @@ Now, to retrieve the value from the secrets using the API, you need to authentic
 1. Go to **DevBox** and store the **Google Authentication Credentials** on the workspace.
 2. Install **Python** and **PIP**:
 
-{% code lineNumbers="false" %}
 ```
 sudo apt update
 sudo apt install python3 python3-dev python3-venv
 sudo apt-get install wget
 wget https://bootstrap.pypa.io/get-pip.py
 ```
-{% endcode %}
 
 3. Install **Secret Manager API**:
 
-{% code lineNumbers="false" %}
 ```
 pip install google-cloud-secret-manager
 ```
-{% endcode %}
 
 4. Set the **GOOGLE_APPLICATION_CREDENTIALS** environment variable by using the following command:
 
-{% code lineNumbers="false" %}
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/the/key.json
 ```
-{% endcode %}
 
 5. Write a Python script to test the Secret Manager API Connection:
 
-{% code lineNumbers="false" %}
 ```
 from google.cloud import secretmanager
 
@@ -75,15 +68,12 @@ def access_secret_version(project_id, secret_id, version_id):
 
 access_secret_version('<project-id>', '<secret-id', '<version-id>')
 ```
-{% endcode %}
 
 7. Run the Python Script:
 
-{% code lineNumbers="false" %}
 ```
 python3 <file-name>.py
 ```
-{% endcode %}
 
 If the connection is successful, you should see **Secret** printed in the terminal output.
 
@@ -120,34 +110,27 @@ Now, to retrieve the value from the secrets using the API, you need to authentic
 1. Go to **DevBox** and store the **Google Authentication Credentials** in the workspace.
 2. Install **Python** and **Pip**:
 
-{% code lineNumbers="false" %}
 ```
 sudo apt update
 sudo apt install python3 python3-dev python3-venv
 sudo apt-get install wget
 wget https://bootstrap.pypa.io/get-pip.py
 ```
-{% endcode %}
 
 3. Install **Secret Manager** package:
 
-{% code lineNumbers="false" %}
 ```
 pip install google-cloud-secret-manager
 ```
-{% endcode %}
 
 4. Set the **GOOGLE_APPLICATION_CREDENTIALS** environment variable by using the following command:
 
-{% code lineNumbers="false" %}
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/the/key.json
 ```
-{% endcode %}
 
 5. Write a Python script to test the Secret Manager API Connection:
 
-{% code lineNumbers="false" %}
 ```
 from google.cloud import secretmanager
 
@@ -163,15 +146,12 @@ def access_secret_version(project_id, secret_id, version_id):
 
 access_secret_version('<project-id>', '<secret-id', '<version-id>')
 ```
-{% endcode %}
 
 7. Run the Python Script:
 
-{% code lineNumbers="false" %}
 ```
 python3 <file-name>.py
 ```
-{% endcode %}
 
 If the connection is successful, you should see **Secret** printed in the terminal output.
 
