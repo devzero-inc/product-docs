@@ -13,7 +13,7 @@ Ceph is a free and open-source software-defined storage platform that provides o
 
 ## Mount
 
-The methodology that's used to enable a workspace to have access to persistent volumes (can be verified by running mount in a UNIX shell).
+The method that's used to enable a workspace to have access to persistent volumes (can be verified by running mount in a UNIX shell).
 
 ## Persistent Volumes
 
