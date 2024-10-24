@@ -18,3 +18,7 @@ The method that's used to enable a workspace to have access to persistent volume
 ## Persistent Volumes
 
 Persistent volumes are network-backed block devices that are mounted to workspaces. This ensures that changes made inside a workspace are resilient to restarts, etc.
+
+## Object Storage
+Object storage is a netword-based storage system that stores data as unstructured objects, as opposed to a hierarchical filesystem.
+Common Object store services include AWS S3 and Microsoft Azure Blob Storage. DevZero uses an S3-compatible object store backed by Ceph.
